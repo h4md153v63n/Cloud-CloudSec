@@ -10,3 +10,22 @@ Introduction to Multi-Cloud Red Team Analyst (MCRTA) Certification is a beginner
 + Exploit chained mis-configurations in Multi-Cloud environment
 + Capture the Flags and earn the MCRTA Certificate
 
+
+## Procedure
++ Enroll in Multi-Cloud Red Team Analyst (MCRTA) Course
++ Study MCRTA Premium Materials (PDF + Videos)
++ Solve 30+ Multi-Cloud Red Team Challenges
++ Earn MCRTA Certificate
+
+
+## Note
++ Once you complete the MCRTA content (PDFs + Videos) you can then solve the challenges as per your convinience. Multi-Cloud Challenges will be available to solve 24x7
++ You will have life-time access to the MCRTA content.
++ MCRTA lab is 24*7 accessible, you can play the lab anytime as per your convenience.
++ To gather the Cloud Credentials you need to perform OSINT activities as dictated in the Flag Section.
+
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/f935592e-a634-4125-b363-6f8ef29e6949)
+
+
+
