@@ -24,8 +24,11 @@ Introduction to Multi-Cloud Red Team Analyst (MCRTA) Certification is a beginner
 + MCRTA lab is 24*7 accessible, you can play the lab anytime as per your convenience.
 + To gather the Cloud Credentials you need to perform OSINT activities as dictated in the Flag Section.
 
-
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/f935592e-a634-4125-b363-6f8ef29e6949)
+
+MCRTA
+
+Below you will find 3 Cloud Red Team Modules, which contains respective study materials (PDF + Videos), 10 Cloud Specific challenges, you can start with any module as you prefer. Your Cloud Red Team Journey Starts now :)
 
 
 
