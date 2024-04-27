@@ -1,12 +1,14 @@
 # AWS Cloud Red Teaming
 You as a Cloud Red Team Analyst has been assigned to assess the "CWL Meta-tech" Organization AWS Cloud Infrastructure. Buckle up and prepare to HACK THE PLANET!
 
+
 ## Study Material
 + 1. Introduction to AWS Red Teaming: 
 + 2. AWS Cloud Authentication:
 + 3. AWS Cloud Core Services Enumeration: 
 + 4. AWS Cloud Red Team Operations: 
 + 5. AWS Cloud Automated Red Team Operations: 
+
 
 ## Objective
 We hope our AWS Cloud Red Team premium materials (consisting of Videos + PDFs) were insightful for you. Now, let's do some hacking :)
