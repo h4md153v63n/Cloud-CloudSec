@@ -25,8 +25,8 @@ We recommend to use Cloud Adversary Simulation OS , RedCloudOS: https://github.c
 Your role involves conducting Red Team Operations within the Enterprise AWS Cloud Environment. This includes conducting reconnaissance activities, enumerating services, exploiting vulnerabilities, and extracting sensitive information from the AWS infrastructure.
 
 **Additional Guidelines:**
-● For assistance or inquiries, feel free to ask questions in our Multi-Cloud Red Team Analyst Discord Channel (https://discord.gg/wMCTtVErj5).
-● Any prohibited activities such as Flag Sharing, DoS, or DDoS attacks that may harm other participants are strictly prohibited. Violators will face severe consequences.
++ For assistance or inquiries, feel free to ask questions in our Multi-Cloud Red Team Analyst Discord Channel (https://discord.gg/wMCTtVErj5).
++ Any prohibited activities such as Flag Sharing, DoS, or DDoS attacks that may harm other participants are strictly prohibited. Violators will face severe consequences.
 
 **Note:**
 To gather the Cloud Credentials you need to perform OSINT activities as dictated in the Flag Section.
