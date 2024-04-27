@@ -33,5 +33,6 @@ Your role involves conducting Red Team Operations within the Enterprise Azure Cl
 **Note:**
 To gather the Cloud Credentials you need to perform OSINT activities as dictated in the Flag Section.
 
-
 ## Flag
+Solving the challenges like CTF styles.
+
