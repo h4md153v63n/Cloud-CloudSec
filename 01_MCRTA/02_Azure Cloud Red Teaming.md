@@ -1,6 +1,8 @@
 # Azure Cloud Red Teaming
 You as a Cloud Red Team Analyst has been assigned to assess the "CWL Meta-tech" Organization Azure Cloud Infrastructure. Prepare for a turbocharged journey as we navigate the Azure universe together!
 
+https://portal.azure.com/
+
 
 ## Study Material
 + 1. Intro to Azure Red Teaming:
