@@ -1,6 +1,8 @@
 # AWS Cloud Red Teaming
 You as a Cloud Red Team Analyst has been assigned to assess the "CWL Meta-tech" Organization AWS Cloud Infrastructure. Buckle up and prepare to HACK THE PLANET!
 
+https://console.aws.amazon.com/
+
 
 ## Study Material
 + 1. Introduction to AWS Red Teaming: 
