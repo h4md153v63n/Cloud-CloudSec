@@ -36,3 +36,7 @@ To gather the Cloud Credentials you need to perform OSINT activities as dictated
 
 ## Flag
 Solving the challenges like CTF styles.
+
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/4735e150-fb1c-4365-9be8-4de644f07235)
+
