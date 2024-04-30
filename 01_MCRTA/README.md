@@ -35,7 +35,7 @@ Below you will find 3 Cloud Red Team Modules, which contains respective study ma
 + 03_[GCP Cloud Red Teaming](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/03_GCP%20Cloud%20Red%20Teaming.md)
 
 
-**Verification Badget:** https://labs.cyberwarfare.live/badge/image/6630849d0dcca27bccbc6c74
+**Verification Badget/Certificate:** https://labs.cyberwarfare.live/badge/image/6630849d0dcca27bccbc6c74
 
 **Multi-Cloud Red Team Analyst (MCRTA) Review:** https://hamdisevben.medium.com/multi-cloud-red-team-analyst-mcrta-dff807d3f3a3
 
