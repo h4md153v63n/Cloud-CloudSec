@@ -1,5 +1,5 @@
 # CloudSec
-Multi Cloud Security: AWS, GCP and Azure
+Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
 
 ## Courses & Certification Programs:
 + **01-Multi-Cloud Red Team Analyst:** [MCRTA](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/README.md)
