@@ -30,9 +30,9 @@ Introduction to Multi-Cloud Red Team Analyst (MCRTA) Certification is a beginner
 
 # MCRTA
 Below you will find 3 Cloud Red Team Modules, which contains respective study materials (PDF + Videos), 10 Cloud Specific challenges, you can start with any module as you prefer. Your Cloud Red Team Journey Starts now :)
-+ 01_[AWS Cloud Red Teaming](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/01_AWS%20Cloud%20Red%20Teaming.md)
-+ 02_[Azure Cloud Red Teaming](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/02_Azure%20Cloud%20Red%20Teaming.md)
-+ 03_[GCP Cloud Red Teaming](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/03_GCP%20Cloud%20Red%20Teaming.md)
++ 01-[AWS Cloud Red Teaming](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/01_AWS%20Cloud%20Red%20Teaming.md)
++ 02-[Azure Cloud Red Teaming](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/02_Azure%20Cloud%20Red%20Teaming.md)
++ 03-[GCP Cloud Red Teaming](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/03_GCP%20Cloud%20Red%20Teaming.md)
 
 
 **Verification Badget/Certificate:** https://labs.cyberwarfare.live/badge/image/6630849d0dcca27bccbc6c74
