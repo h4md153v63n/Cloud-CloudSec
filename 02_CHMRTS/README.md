@@ -52,8 +52,28 @@ The training contents are divided across 4 sections listed below:
 + Mapped with Enterprise MITRE Cloud TTPs​
 
 
+## Prerequisites
+**Pre-requisites**
+Following are the requirements:
++ Fair Knowledge of Networking and Web Technology
++ Familiarity with command line interface
++ Familiarity with virtualization technologies
++ Basics of Penetration testing methodology
++ An Open mind 😊
++ No prior Cloud knowledge is required.
+
+**Target Audience**
+Targeted Audience may include the following group of people:
++ Penetration Testers / Red Teams
++ Cloud Security Professionals
++ Cloud Architects
++ SOC analysts
++ Threat Hunting Team
++ Anyone who is interested in strengthening their offensive capabilities in multi-Cloud environment
 
 
+## Certification Procedure
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/166f568d-a065-4995-a30a-21f3615aed54)
 
 
 
