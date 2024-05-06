@@ -11,6 +11,10 @@
 ![CHMRTS](https://github.com/h4md153v63n/CloudSec/assets/5091265/469d3ae2-f983-48a4-a8b6-c5d15ac8179c)
 
 
+# Sections
+
+
+
 ## Information Syllabus
 The training contents are divided across 4 sections listed below:
 
@@ -76,4 +80,6 @@ Targeted Audience may include the following group of people:
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/e6227062-ac2e-45b5-8930-5258cfc7bf4f)
 
 
+## Pricing Plan
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/37a3bca7-4782-4e38-af47-f559c32fdb70)
 
