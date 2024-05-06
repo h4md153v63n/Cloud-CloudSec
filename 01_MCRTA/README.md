@@ -52,6 +52,30 @@ The courses contents are divided across 4 sections listed below:
 + Earn & Show-off your CWL Verified MCRTA Certificate
 + Join CWL Cloud Red Team Community (Discord Channel)
 
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/f935592e-a634-4125-b363-6f8ef29e6949)
+
+
+## Prerequisites
+**Pre-requisites**
+Following are the requirements:
++ Familiarity with Command Line Interface
++ No prior cloud knowledged is required
++ An Open Mind 🙂🙂
+
+**Target Audience**
+Designed specifically for intermediate to advanced professionals having interest in:
++ Cyber Security Beginners / Professionals
++ Security Analysts / Security Consultants / Security Engineer etc
++ Anyone Interested in Cloud Security / Cloud Pentesting / Cloud Red Teaming Domains
++ You 🙂
+
+
+## Certification Procedure
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/4c3dec96-54cd-4c42-81aa-cb729857061e)
+
+
+## Pricing Plan
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/e31c8b36-ffb8-4cc6-bbb3-6dbd7375ec22)
 
 
 Kick start your Cloud Red Team journey with MCRTA practical course, you will learn Multi-Cloud Security Fundamentals, Credentials Enumeration & exploitation in a enterprise grade AWS, Azure & GCP Cloud Security Labs. Start now :)
