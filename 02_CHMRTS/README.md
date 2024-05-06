@@ -73,7 +73,7 @@ Targeted Audience may include the following group of people:
 
 
 ## Certification Procedure
-![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/166f568d-a065-4995-a30a-21f3615aed54)
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/e6227062-ac2e-45b5-8930-5258cfc7bf4f)
 
 
 
