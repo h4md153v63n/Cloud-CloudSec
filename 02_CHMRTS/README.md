@@ -19,7 +19,12 @@ The training contents are divided across 4 sections listed below:
 + Post-Exploitation by abusing mis-configured AWS Services
 + Data Exfiltration from S3, RDS, STS & Secret Manager etc
 
-
+**Attacking - Azure Environment**
++ Enumerating & Designing Attack Surface of Azure Cloud Services
++ Pivoting Azure Control Plane to the Date Plane
++ Stealth Persistence Access of Azure account by Service Principal
++ Privilege Escalation by abusing mis-configured RBAC
++ Mis-use Azure Authentication Methods [PHS, PTA, Federation].
 
  
 
