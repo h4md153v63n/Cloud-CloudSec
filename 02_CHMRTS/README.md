@@ -8,7 +8,7 @@
 + Bypassing Security Controls in Multi-Cloud Environment
 + Exploiting Multi-Cloud Environment using Open-Source Exploitation Tools / Framework
 
-![CHMRTS](https://github.com/h4md153v63n/CloudSec/assets/5091265/469d3ae2-f983-48a4-a8b6-c5d15ac8179c)
+![CHMRTS](https://github.com/h4md153v63n/CloudSec/assets/5091265/bfae921c-6fd1-4d58-99a2-0bd2e9b411d2)
 
 
 # Sections
