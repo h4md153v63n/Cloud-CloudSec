@@ -8,6 +8,8 @@
 + Bypassing Security Controls in Multi-Cloud Environment
 + Exploiting Multi-Cloud Environment using Open-Source Exploitation Tools / Framework
 
+![CHMRTS](https://github.com/h4md153v63n/CloudSec/assets/5091265/469d3ae2-f983-48a4-a8b6-c5d15ac8179c)
+
 
 ## Information Syllabus
 The training contents are divided across 4 sections listed below:
@@ -26,9 +28,29 @@ The training contents are divided across 4 sections listed below:
 + Privilege Escalation by abusing mis-configured RBAC
 + Mis-use Azure Authentication Methods [PHS, PTA, Federation].
 
- 
+**Attacking - GCP Environment**
++ Enumerating & Designing Attack Surface of GCP Services
++ Enumerating & Exploiting Google Kubernetes Services
++ Post-Exploitation by abusing mis-configured GCP Services
++ Privilege Escalation by exploiting mis-configured OAuth & IAM
++ Persistence Access by Temporary/ Permanent Access Token
 
-  
+**Attacking - Hybrid Multi-Cloud Environment**
++ Lateral movement from one Cloud to another Cloud Platform
++ Enumerate & exploit widely used SaaS Services (O365, G-Suite)
++ Exploit Trusted Relationship for expanding the access
++ Pivoting from On-premise to Cloud environment & vice-versa
++ Use Manual/Open-Source Tools for Offensive Operations
+
+
+## CYBER RANGE LABS HIGHLIGHTS
++ Hybrid Multi Cloud Enterprise Simulation Lab​
++ CHMRTS Digital Badge​
++ Red Teaming in On-Prem, AWS, Azure & GCP​
++ Study Materials : 500+ Pages PDF​
++ Recorded Training Videos with technical support
++ Mapped with Enterprise MITRE Cloud TTPs​
+
 
 
 
