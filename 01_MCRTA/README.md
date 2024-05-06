@@ -7,11 +7,11 @@
 
 
 # Sections
-+ Information Syllabus
-+ Lab Highlights
-+ Prerequisites
-+ Certification Procedure
-+ Pricing Plan
++ [Information Syllabus](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/README.md#information-syllabus)
++ [Lab Highlights](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/README.md#lab-highlights)
++ [Prerequisites](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/README.md#prerequisites)
++ [Certification Procedure](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/README.md#certification-procedure)
++ [Pricing Plan](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/README.md#pricing-plan)
 + [DOWNLOAD FULL SYLLABUS](https://cyberwarfare.live/wp-content/uploads/2024/02/MCRTA-Syllabus.pdf)
 
 
@@ -77,6 +77,7 @@ Designed specifically for intermediate to advanced professionals having interest
 ## Pricing Plan
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/e31c8b36-ffb8-4cc6-bbb3-6dbd7375ec22)
 
+---
 
 Kick start your Cloud Red Team journey with MCRTA practical course, you will learn Multi-Cloud Security Fundamentals, Credentials Enumeration & exploitation in a enterprise grade AWS, Azure & GCP Cloud Security Labs. Start now :)
 
