@@ -13,7 +13,7 @@
 
 # Sections
 + [Information Syllabus](https://github.com/h4md153v63n/CloudSec/tree/main/02_CHMRTS#information-syllabus)
-+ [CYBER RANGE LABS HIGHLIGHTS](https://github.com/h4md153v63n/CloudSec/tree/main/02_CHMRTS#cyber-range-labs-highlights)
++ [Lab Highlights](https://github.com/h4md153v63n/CloudSec/tree/main/02_CHMRTS#lab-highlights)
 + [Prerequisites](https://github.com/h4md153v63n/CloudSec/tree/main/02_CHMRTS#prerequisites)
 + [Certification Procedure](https://github.com/h4md153v63n/CloudSec/tree/main/02_CHMRTS#certification-procedure)
 + [Pricing Plan](https://github.com/h4md153v63n/CloudSec/tree/main/02_CHMRTS#pricing-plan)
@@ -52,7 +52,8 @@ The training contents are divided across 4 sections listed below:
 + Use Manual/Open-Source Tools for Offensive Operations
 
 
-## CYBER RANGE LABS HIGHLIGHTS
+## Lab Highlights
+CYBER RANGE LABS HIGHLIGHTS
 + Hybrid Multi Cloud Enterprise Simulation Lab​
 + CHMRTS Digital Badge​
 + Red Teaming in On-Prem, AWS, Azure & GCP​
