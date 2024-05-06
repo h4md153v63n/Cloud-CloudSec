@@ -13,6 +13,7 @@
 + [Certification Procedure](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/README.md#certification-procedure)
 + [Pricing Plan](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/README.md#pricing-plan)
 + [DOWNLOAD FULL SYLLABUS](https://cyberwarfare.live/wp-content/uploads/2024/02/MCRTA-Syllabus.pdf)
++ [About the CWL MCRTA Course](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/README.md#about-the-cwl-mcrta-course)
 
 
 ## Information Syllabus
