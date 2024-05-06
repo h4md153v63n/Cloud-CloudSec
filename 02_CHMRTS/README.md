@@ -12,7 +12,12 @@
 
 
 # Sections
-
++ [Information Syllabus](https://github.com/h4md153v63n/CloudSec/tree/main/02_CHMRTS#information-syllabus)
++ [CYBER RANGE LABS HIGHLIGHTS](https://github.com/h4md153v63n/CloudSec/tree/main/02_CHMRTS#cyber-range-labs-highlights)
++ [Prerequisites](https://github.com/h4md153v63n/CloudSec/tree/main/02_CHMRTS#prerequisites)
++ [Certification Procedure](https://github.com/h4md153v63n/CloudSec/tree/main/02_CHMRTS#certification-procedure)
++ [Pricing Plan](https://github.com/h4md153v63n/CloudSec/tree/main/02_CHMRTS#pricing-plan)
++ [DOWNLOAD FULL SYLLABUS](https://cyberwarfare.live/wp-content/uploads/2023/09/Hybrid-Multi-Cloud-Red-Team-Specialist-CHMRTS.pdf)
 
 
 ## Information Syllabus
