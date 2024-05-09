@@ -79,7 +79,7 @@ Targeted Audience may include the following group of people:
 + Cloud Architects
 + SOC analysts
 + Threat Hunting Team
-+ Anyone who is interested in strengthening their offensive capabilities in multi-Cloud environment
++ Anyone who is interested in strengthening their offensive capabilities in multi-Cloud environment 
 
 
 ## Certification Procedure
