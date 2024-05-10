@@ -18,7 +18,7 @@
 + [Certification Procedure](https://github.com/h4md153v63n/CloudSec/tree/main/02_CHMRTS#certification-procedure)
 + [Pricing Plan](https://github.com/h4md153v63n/CloudSec/tree/main/02_CHMRTS#pricing-plan)
 + [DOWNLOAD FULL SYLLABUS](https://cyberwarfare.live/wp-content/uploads/2023/09/Hybrid-Multi-Cloud-Red-Team-Specialist-CHMRTS.pdf)
-
+   
 
 ## Information Syllabus
 The training contents are divided across 4 sections listed below:
