@@ -1,5 +1,5 @@
 # Hybrid Multi-Cloud Red Team Specialist [[CHMRTS]](https://cyberwarfare.live/product/hybrid-multi-cloud-red-team-specialist-chmrts/)
-+ Inventory Extraction and Attack Map Design for AWS, Azure, GCP & On-Premise 
++ Inventory Extraction and Attack Map Design for AWS, Azure, GCP & On-Premise  
 + Exploit widely used Cloud Services e.g., O365, G-Suite and Azure AD etc
 + Lateral movement from on-premise to Cloud & vice-versa
 + Backdoor Hybrid Multi-Cloud Environment for Stealth Persistence access
