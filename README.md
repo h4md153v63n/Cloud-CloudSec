@@ -10,4 +10,5 @@ Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
 
 ## Cloud Security Labs:
 + **Awesome Cloud Security Labs:** https://github.com/iknowjason/Awesome-CloudSec-Labs
++ https://cloud.hacktricks.xyz
 + https://github.com/awslabs/aws-shell
