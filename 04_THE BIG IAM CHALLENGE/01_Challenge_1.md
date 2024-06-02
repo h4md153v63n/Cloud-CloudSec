@@ -51,3 +51,6 @@ Completed 37 Bytes/37 Bytes (556 Bytes/s) with 1 file(s) remainingdownload: s3:/
 > cat /tmp/flag1.txt
 {wiz:exposed-storage-risky-as-usual}
 ```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/676668db-1f1b-48f4-9fa7-83517f00f1e7)
+
