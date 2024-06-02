@@ -12,3 +12,4 @@ Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
 + **Awesome Cloud Security Labs:** https://github.com/iknowjason/Awesome-CloudSec-Labs
 + https://cloud.hacktricks.xyz
 + https://github.com/awslabs/aws-shell
++ https://rzepsky.medium.com/playing-with-cloudgoat-part-1-hacking-aws-ec2-service-for-privilege-escalation-4c42cc83f9da
