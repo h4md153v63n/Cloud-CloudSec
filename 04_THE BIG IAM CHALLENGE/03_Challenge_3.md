@@ -46,7 +46,7 @@ aws sns subscribe --topic-arn "arn:aws:sns:us-east-1:092297851374:TBICWizPushNot
 
 Use https://pipedream.com/requestbin
 
-```
+```sh
 {
   "event": {
     "method": "POST",
