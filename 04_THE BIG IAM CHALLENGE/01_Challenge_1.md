@@ -1,10 +1,38 @@
 # Challenge 1
 
-https://bigiamchallenge.com/challenge/1
+**Challenge 1:** https://bigiamchallenge.com/challenge/1
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/57ff9010-8846-455b-a1e0-21859246e2b4)
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/13756273-e84c-4508-8b06-3caa3689e706)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/f68e5601-6414-4fac-a3c1-7e31a46a1bc8)
+
+```sh
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::thebigiamchallenge-storage-9979f4b/*"
+        },
+        {
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:ListBucket",
+            "Resource": "arn:aws:s3:::thebigiamchallenge-storage-9979f4b",
+            "Condition": {
+                "StringLike": {
+                    "s3:prefix": "files/*"
+                }
+            }
+        }
+    ]
+}
+```
+
 
 ```sh
 > aws sts get-caller-identity
@@ -22,5 +50,4 @@ https://bigiamchallenge.com/challenge/1
 Completed 37 Bytes/37 Bytes (556 Bytes/s) with 1 file(s) remainingdownload: s3://thebigiamchallenge-storage-9979f4b/files/flag1.txt to ../../tmp/flag1.txt
 > cat /tmp/flag1.txt
 {wiz:exposed-storage-risky-as-usual}
-
 ```
