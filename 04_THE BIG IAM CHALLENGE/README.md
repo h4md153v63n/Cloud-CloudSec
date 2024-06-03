@@ -19,3 +19,13 @@ We all know that public buckets are risky. But can you find the flag?
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/17421b9b-341e-4a37-9a9a-b7e8e1aaba00)
 
+
+<!--
+**Alternative Reviews:**
++ https://infrasec.sh/post/wiz_iam_ctf/
++ https://iash.dev/posts/the-big-iam-challenge-ctf-walkthrough/
++ https://tari.moe/2023/bigiamchallenge.html
++ https://kknowl.es/posts/wiz-iam-challenge/
++ https://pswalia2u.medium.com/bigiamchallenge-aws-iam-challenges-ded45cb983f2
+
+-->
