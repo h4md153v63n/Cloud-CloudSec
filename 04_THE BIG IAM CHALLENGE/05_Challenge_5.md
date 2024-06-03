@@ -9,6 +9,7 @@
 View page source:
 
   AWS.config.region = 'us-east-1';
+  
   AWS.config.credentials = new AWS.CognitoIdentityCredentials({IdentityPoolId: "us-east-1:b73cb2d2-0d00-4e77-8e80-f99d9c13da3b"});
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/42f2bb75-520d-49ec-b46b-8f13cfd261f4)
