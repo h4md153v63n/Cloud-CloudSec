@@ -13,6 +13,9 @@ We all know that public buckets are risky. But can you find the flag?
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/fa127f3b-065b-41f4-8703-b83a581186f4)
 
+**Verify:** https://bigiamchallenge.com/finisher/elhLP0UO
 
+**Certification:**
 
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/17421b9b-341e-4a37-9a9a-b7e8e1aaba00)
 
