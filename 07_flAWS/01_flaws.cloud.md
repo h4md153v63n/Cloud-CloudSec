@@ -483,9 +483,9 @@ Create ec2 vm ubuntu instance with ssh .pem file on **your aws account**, and ss
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/9b36f54e-173f-4ce9-a2e9-81a5f5f2ea04)
 
-View instances ---> choose instance ---> click connect at the top ---> follow instructions to SSH into the machine.
+View instances **--->** choose instance **--->** click connect at the top **--->** follow instructions to SSH into the machine.
 
-![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/84b59d9e-ab07-4327-8ee3-43a2eac8d1ec)
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/bda0dd5e-b311-4ed2-916b-e619a763d92f)
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/c8d0c09b-f512-446e-be68-b5f03224b8a8)
 
