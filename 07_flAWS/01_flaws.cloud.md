@@ -17,11 +17,11 @@ d88P"  888       d88888 888   o   888 d88P  Y88b
 
 ## Solutions
 - [Level 1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-1)
-- Level 2
-- Level 3
-- Level 4
-- Level 5
-- Level 6
+- [Level 2](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-2)
+- Level [3](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-3)
+- Level [4](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-4)
+- Level [5](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-5)
+- Level [6](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-6)
 
 
 ### Level 1:
@@ -103,7 +103,16 @@ pdns1.ultradns.net	has AAAA address 2001:502:f3ff::1
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/75269f94-1c21-4954-88cb-885ac590174e)
 
+Visit: http://s3-us-west-2.amazonaws.com/flaws.cloud
 
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/fe0fe170-3a3c-402e-b2e8-f630d5b624e9)
+
+Navigate: http://s3-us-west-2.amazonaws.com/flaws.cloud/secret-dd02c7c.html
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/f5dfa251-2694-44ec-92ea-da3c1d9927ee)
+
+
+### Level 2:
 
 
 
