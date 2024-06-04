@@ -331,12 +331,41 @@ index e3ae6dd..0000000
 -secret_access_key OdNa7m+bqUvF3Bn/qgSnPE1kBpqcBTTjqwP83Jy s
 ```
 
-![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/b50814e4-2459-47c9-ab6f-b54e782bbdf3)
+```
+┌─[cwl@RedCloud]─[~/Desktop/level3]
+└──╼ $aws configure --profile level3
+AWS Access Key ID [None]: AKIAJ366LIPB4IJKT7S A
+AWS Secret Access Key [None]: OdNa7m+bqUvF3Bn/qgSnPE1kBpqcBTTjqwP83Jy s
+Default region name [None]: us-west-2
+Default output format [None]: 
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/0e61577a-6d5b-43ca-9871-d9741366d48c)
+
+```
+┌─[cwl@RedCloud]─[~/Desktop/level3]
+└──╼ $aws s3 ls --profile level3
+2020-06-25 23:13:56 2f4e53154c0a7fd086a04a12a452c2a4caed8da0.flaws.cloud
+2020-06-27 04:36:07 config-bucket-975426262029
+2020-06-27 16:16:15 flaws-logs
+2020-06-27 16:16:15 flaws.cloud
+2020-06-27 20:57:14 level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud
+2020-06-27 20:57:14 level3-9afd3927f195e10225021a578e6f78df.flaws.cloud
+2020-06-27 20:57:14 level4-1156739cfb264ced6de514971a4bef68.flaws.cloud
+2020-06-27 20:57:15 level5-d2891f604d2061b6977c2481b0c8333e.flaws.cloud
+2020-06-27 20:57:15 level6-cc4c404a8a8b876167f5e70a7d8c9880.flaws.cloud
+2020-06-28 07:59:47 theend-797237e8ada164bf9f12cebf93b282cf.flaws.cloud
+```
+
+**Take note of the next buckets:**
+2020-06-27 20:57:14 level4-1156739cfb264ced6de514971a4bef68.flaws.cloud
+2020-06-27 20:57:15 level5-d2891f604d2061b6977c2481b0c8333e.flaws.cloud
+2020-06-27 20:57:15 level6-cc4c404a8a8b876167f5e70a7d8c9880.flaws.cloud
+2020-06-28 07:59:47 theend-797237e8ada164bf9f12cebf93b282cf.flaws.cloud
 
 
-
-
-
+### Level 4:
+Visit: http://level4-1156739cfb264ced6de514971a4bef68.flaws.cloud
 
 
 
