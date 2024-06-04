@@ -25,6 +25,8 @@ d88P"  888       d88888 888   o   888 d88P  Y88b
 
 
 ### Level 1:
+Go: http://flaws.cloud/hint1.html
+
 ```
 ┌─[cwl@RedCloud]─[~/Desktop]
 └──╼ $dig flaws.cloud
