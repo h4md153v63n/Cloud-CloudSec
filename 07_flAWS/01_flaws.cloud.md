@@ -369,6 +369,49 @@ Default output format [None]:
 ### Level 4:
 Visit: http://level4-1156739cfb264ced6de514971a4bef68.flaws.cloud
 
+```
+┌─[cwl@RedCloud]─[~/Desktop/level3]
+└──╼ $aws ec2 describe-instances --profile level3 | jq -r '.Reservations[].Instances[] | {VolumeId: (.BlockDeviceMappings[].Ebs.VolumeId), PublicIp: .PublicIpAddress}'
+{
+  "VolumeId": "vol-04f1c039bc13ea950",
+  "PublicIp": "35.165.182.7"
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/7ec5e16c-e844-4908-8846-78b49980e532)
+
+```
+┌─[✗]─[cwl@RedCloud]─[~/Desktop/level3]
+└──╼ $aws ec2 describe-snapshots --filters "Name=volume-id, Values=vol-04f1c039bc13ea950" --profile level3
+{
+    "Snapshots": [
+        {
+            "Description": "",
+            "Encrypted": false,
+            "OwnerId": "975426262029",
+            "Progress": "100%",
+            "SnapshotId": "snap-0b49342abd1bdcb89",
+            "StartTime": "2017-02-28T01:35:12.000Z",
+            "State": "completed",
+            "VolumeId": "vol-04f1c039bc13ea950",
+            "VolumeSize": 8,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "flaws backup 2017.02.27"
+                }
+            ],
+            "StorageTier": "standard"
+        }
+    ]
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/43633b3a-bbca-4369-851a-58591ffb8a07)
+
+
+
+
 
 
 
