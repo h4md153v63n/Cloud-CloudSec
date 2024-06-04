@@ -471,16 +471,10 @@ Anyone can create a volume based on this snapshot:
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/40dc18ea-9302-477a-945b-d641a4bf4089)
 
 ```
-┌─[cwl@RedCloud]─[~/Desktop/level3]
-└──╼ $aws ec2 describe-instances --profile level3 | jq -r '.Reservations[].Instances[].InstanceId'
-i-05bef8a081f307783
-```
 
-![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/4dac382f-4135-486d-aa6c-a3ac5ef5f56d)
 
 ```
 
-```
 
 
 
