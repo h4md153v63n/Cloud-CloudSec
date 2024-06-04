@@ -487,8 +487,6 @@ View instances **--->** choose instance **--->** click connect at the top **--->
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/bda0dd5e-b311-4ed2-916b-e619a763d92f)
 
-![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/c8d0c09b-f512-446e-be68-b5f03224b8a8)
-
 ```
 [cloudshell-user@ip-10-xxx-xx-xxx ~]$ aws ec2 describe-instances | jq -r '.Reservations[].Instances[].InstanceId'
 i-0acc8a6d1886ebb03
@@ -502,6 +500,8 @@ i-0acc8a6d1886ebb03
 }
 [cloudshell-user@ip-10-xxx-xx-xxx ~]$
 ```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/c8d0c09b-f512-446e-be68-b5f03224b8a8)
 
 SSH into the machine again from **your attack machine**, and list available drives with `lsblk`:
 
