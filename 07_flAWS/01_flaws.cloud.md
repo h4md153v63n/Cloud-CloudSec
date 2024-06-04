@@ -18,10 +18,10 @@ d88P"  888       d88888 888   o   888 d88P  Y88b
 ## Solutions
 - [Level 1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-1)
 - [Level 2](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-2)
-- Level [3](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-3)
-- Level [4](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-4)
-- Level [5](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-5)
-- Level [6](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-6)
+- [Level 3](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-3)
+- [Level 4](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-4)
+- [Level 5](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-5)
+- [Level 6](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-6)
 
 
 ### Level 1:
