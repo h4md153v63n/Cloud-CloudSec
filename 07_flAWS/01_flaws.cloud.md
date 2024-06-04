@@ -119,6 +119,76 @@ Navigate: http://s3-us-west-2.amazonaws.com/flaws.cloud/secret-dd02c7c.html
 
 
 ### Level 2:
+Visit: http://level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud/
+
+Configure AWS CLI with your Access Key and Secret Key:
+
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws configure
+AWS Access Key ID [****************JYCT]: A******************6
+AWS Secret Access Key [****************lflS]: t*******************************R
+Default region name [us-east-2]: us-west-2
+Default output format [None]: 
+
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/260a7d24-a260-4cc3-95a0-83f1b878b27f)
+
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws s3 ls s3://level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud --region us-west-2 --recursive
+2017-02-27 07:32:15      80751 everyone.png
+2017-03-03 09:17:17       1433 hint1.html
+2017-02-27 07:34:39       1035 hint2.html
+2017-02-27 07:32:14       2786 index.html
+2017-02-27 07:32:14         26 robots.txt
+2017-02-27 07:32:15       1051 secret-e4443fc.html
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/36ae40e4-9db0-4774-a264-2fd2017ba1b1)
+
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws s3 cp s3://level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud/secret-e4443fc.html -<html>
+    <head>
+        <title>flAWS</title>
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+        <style>
+            body { font-family: Andale Mono, monospace; }
+            :not(center) > pre { background-color: #202020; padding: 4px; border-radius: 5px; border-color:#00d000; 
+            border-width: 1px; border-style: solid;} 
+        </style>
+    </head>
+<body 
+  text="#00d000" 
+  bgcolor="#000000"  
+  style="max-width:800px; margin-left:auto ;margin-right:auto"
+  vlink="#00ff00" link="#00ff00">
+    
+<center>
+<pre >
+ _____  _       ____  __    __  _____
+|     || |     /    ||  |__|  |/ ___/
+|   __|| |    |  o  ||  |  |  (   \_ 
+|  |_  | |___ |     ||  |  |  |\__  |
+|   _] |     ||  _  ||  `  '  |/  \ |
+|  |   |     ||  |  | \      / \    |
+|__|   |_____||__|__|  \_/\_/   \___|
+</pre>
+
+<h1>Congrats! You found the secret file!</h1>
+</center>
+
+
+Level 3 is at <a href="http://level3-9afd3927f195e10225021a578e6f78df.flaws.cloud">http://level3-9afd3927f195e10225021a578e6f78df.flaws.cloud</a>
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/2d6a8059-6065-46c3-a731-d1df22d7d65b)
+
+
+### Level 3:
+Visit: http://level3-9afd3927f195e10225021a578e6f78df.flaws.cloud
 
 
 
