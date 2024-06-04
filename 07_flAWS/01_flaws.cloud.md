@@ -14,7 +14,15 @@ d88P"  888       d88888 888   o   888 d88P  Y88b
 </pre>
 </center>
 
+
 ## Solutions
+- [Level 1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md#level-1)
+- Level 2
+- Level 3
+- Level 4
+- Level 5
+- Level 6
+
 
 ### Level 1:
 ```
