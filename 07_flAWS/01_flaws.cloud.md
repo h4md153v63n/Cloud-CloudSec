@@ -470,10 +470,25 @@ Anyone can create a volume based on this snapshot:
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/40dc18ea-9302-477a-945b-d641a4bf4089)
 
+
+Login https://console.aws.amazon.com/ with your credentials on your aws cli.
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/c8d0c09b-f512-446e-be68-b5f03224b8a8)
+
+```
+[cloudshell-user@ip-10-xxx-xx-xxx ~]$ aws ec2 describe-instances | jq -r '.Reservations[].Instances[].InstanceId'
+i-0acc8a6d1886ebb03
+[cloudshell-user@ip-10-xxx-xx-xxx ~]$ aws ec2 attach-volume --volume-id vol-0885a53d372e754a1 --instance-id i-0acc8a6d1886ebb03 --device /dev/sdz
+{
+    "AttachTime": "2024-06-04T14:49:54.112000+00:00",
+    "Device": "/dev/sdz",
+    "InstanceId": "i-0acc8a6d1886ebb03",
+    "State": "attaching",
+    "VolumeId": "vol-0885a53d372e754a1"
+}
+[cloudshell-user@ip-10-xxx-xx-xxx ~]$
 ```
 
-
-```
 
 
 
