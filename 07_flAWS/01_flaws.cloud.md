@@ -471,9 +471,9 @@ Anyone can create a volume based on this snapshot:
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/40dc18ea-9302-477a-945b-d641a4bf4089)
 
 
-Login https://console.aws.amazon.com/ with your credentials on your aws cli.
+Login https://console.aws.amazon.com/ with **your credentials on your aws cli**.
 
-Create ec2 vm ubuntu instance and ssh into ubuntu:
+Create ec2 vm ubuntu instance with ssh .pem file on **your aws account**, and ssh into ubuntu from **your attack machine**:
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/84b59d9e-ab07-4327-8ee3-43a2eac8d1ec)
 
@@ -493,7 +493,7 @@ i-0acc8a6d1886ebb03
 [cloudshell-user@ip-10-xxx-xx-xxx ~]$
 ```
 
-SSH into the machine again, and list available drives with `lsblk`:
+SSH into the machine again from **your attack machine**, and list available drives with `lsblk`:
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/727695c9-03b5-47ed-9fdb-2e3b4212666b)
 
