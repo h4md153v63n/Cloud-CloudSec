@@ -281,6 +281,59 @@ download: s3://level3-9afd3927f195e10225021a578e6f78df.flaws.cloud/.git/objects/
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/6c755556-0a27-4f22-815a-9c61ed112844)
 
+```
+┌─[cwl@RedCloud]─[~/Desktop/level3]
+└──╼ $ls -la
+total 148
+drwxr-xr-x 1 cwl cwl    174 Jun  4 15:41 .
+drwxr-xr-x 1 cwl cwl    108 Jun  4 15:28 ..
+-rw-r--r-- 1 cwl cwl 123637 Feb 27  2017 authenticated_users.png
+drwxr-xr-x 1 cwl cwl    128 Jun  4 16:04 .git
+-rw-r--r-- 1 cwl cwl   1552 Feb 27  2017 hint1.html
+-rw-r--r-- 1 cwl cwl   1426 Feb 27  2017 hint2.html
+-rw-r--r-- 1 cwl cwl   1247 Feb 27  2017 hint3.html
+-rw-r--r-- 1 cwl cwl   1035 Feb 27  2017 hint4.html
+-rw-r--r-- 1 cwl cwl   1861 May 22  2020 index.html
+-rw-r--r-- 1 cwl cwl     26 Feb 27  2017 robots.txt
+┌─[cwl@RedCloud]─[~/Desktop/level3]
+└──╼ $git log 
+commit b64c8dcfa8a39af06521cf4cb7cdce5f0ca9e526 (HEAD, master)
+Author: 0xdabbad00 <scott@summitroute.com>
+Date:   Sun Sep 17 09:10:43 2017 -0600
+
+    Oops, accidentally added something I shouldn't have
+
+commit f52ec03b227ea6094b04e43f475fb0126edb5a61
+Author: 0xdabbad00 <scott@summitroute.com>
+Date:   Sun Sep 17 09:10:07 2017 -0600
+
+    first commit
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/7913c931-820d-4b41-98b5-87300f6ffe6f)
+
+```
+┌─[cwl@RedCloud]─[~/Desktop/level3]
+└──╼ $git show
+commit b64c8dcfa8a39af06521cf4cb7cdce5f0ca9e526 (HEAD, master)
+Author: 0xdabbad00 <scott@summitroute.com>
+Date:   Sun Sep 17 09:10:43 2017 -0600
+
+    Oops, accidentally added something I shouldn't have
+
+diff --git a/access_keys.txt b/access_keys.txt
+deleted file mode 100644
+index e3ae6dd..0000000
+--- a/access_keys.txt
++++ /dev/null
+@@ -1,2 +0,0 @@
+-access_key AKIAJ366LIPB4IJKT7S A 
+-secret_access_key OdNa7m+bqUvF3Bn/qgSnPE1kBpqcBTTjqwP83Jy s
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/b50814e4-2459-47c9-ab6f-b54e782bbdf3)
+
+
 
 
 
