@@ -618,7 +618,44 @@ Navigate: ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/e4fc35
 ### Level 6:
 Visit: http://level6-cc4c404a8a8b876167f5e70a7d8c9880.flaws.cloud/ddcc78ff/
 
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws configure --profile level6
+AWS Access Key ID [None]: AKIAJFQ6E7BY57Q3OBG A
+AWS Secret Access Key [None]: S2IpymMBlViDlqcAnFuZfkVjXrYxZYhP+dZ4ps+ u
+Default region name [None]: us-west-2
+Default output format [None]: 
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws sts get-caller-identity --profile level6
+{
+    "UserId": "AIDAIRMDOSCWGLCDWOG6A",
+    "Account": "975426262029",
+    "Arn": "arn:aws:iam::975426262029:user/Level6"
+}
+```
 
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/78392dfe-34f1-4a5a-929a-4ef58a902be4)
+
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws s3 ls --profile level6
+2020-06-25 23:13:56 2f4e53154c0a7fd086a04a12a452c2a4caed8da0.flaws.cloud
+2020-06-27 04:36:07 config-bucket-975426262029
+2020-06-27 16:16:15 flaws-logs
+2020-06-27 16:16:15 flaws.cloud
+2020-06-27 20:57:14 level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud
+2020-06-27 20:57:14 level3-9afd3927f195e10225021a578e6f78df.flaws.cloud
+2020-06-27 20:57:14 level4-1156739cfb264ced6de514971a4bef68.flaws.cloud
+2020-06-27 20:57:15 level5-d2891f604d2061b6977c2481b0c8333e.flaws.cloud
+2020-06-27 20:57:15 level6-cc4c404a8a8b876167f5e70a7d8c9880.flaws.cloud
+2020-06-28 07:59:47 theend-797237e8ada164bf9f12cebf93b282cf.flaws.cloud
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws s3 ls s3://flaws-logs/ --profile level6
+
+An error occurred (AccessDenied) when calling the ListObjectsV2 operation: Access Denied
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/a8e29fc7-a56d-4540-805f-05664195878c)
 
 
 
