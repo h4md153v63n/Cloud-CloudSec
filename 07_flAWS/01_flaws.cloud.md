@@ -818,3 +818,13 @@ Access the endpoint: https://s33ppypa75.execute-api.us-west-2.amazonaws.com/Prod
 Go to: http://theend-797237e8ada164bf9f12cebf93b282cf.flaws.cloud/d730aa2b/
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/96c35b89-223c-45f3-a911-2e5846203120)
+
+
+<!--
+# Alternative Reviews
++ https://gist.github.com/dboyd13/ba106b92ad6b795100b766f7c86e532f
++ https://philkeeble.com/cloud/Flaws.Cloud-Walkthrough/
++ 
+
+-->
+
