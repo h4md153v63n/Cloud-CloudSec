@@ -475,6 +475,16 @@ Login https://console.aws.amazon.com/ with **your credentials on your aws cli**.
 
 Create ec2 vm ubuntu instance with ssh .pem file on **your aws account**, and ssh into ubuntu from **your attack machine**:
 
+**EC2 Dashboard** ---> **Launch instance** ---> Follow the next steps in the below screenshots:
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/3473a2a6-0973-4f36-b3b3-60ca4852dce4)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/cc8c5bb1-cde4-441c-aeda-5a859b99fac9)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/9b36f54e-173f-4ce9-a2e9-81a5f5f2ea04)
+
+View instances ---> choose instance ---> click connect at the top ---> follow instructions to SSH into the machine.
+
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/84b59d9e-ab07-4327-8ee3-43a2eac8d1ec)
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/c8d0c09b-f512-446e-be68-b5f03224b8a8)
