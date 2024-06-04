@@ -473,6 +473,10 @@ Anyone can create a volume based on this snapshot:
 
 Login https://console.aws.amazon.com/ with your credentials on your aws cli.
 
+Create ec2 vm ubuntu instance and ssh into ubuntu:
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/84b59d9e-ab07-4327-8ee3-43a2eac8d1ec)
+
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/c8d0c09b-f512-446e-be68-b5f03224b8a8)
 
 ```
@@ -489,14 +493,19 @@ i-0acc8a6d1886ebb03
 [cloudshell-user@ip-10-xxx-xx-xxx ~]$
 ```
 
+SSH into the machine again, and list available drives with `lsblk`:
 
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/727695c9-03b5-47ed-9fdb-2e3b4212666b)
 
+Mount the drive:
 
+```
+ubuntu@ip-172-31-27-89:~$ sudo mkdir /mnt/level4
+ubuntu@ip-172-31-27-89:~$ sudo mount /dev/xvdz1 /mnt/level4
+ubuntu@ip-172-31-27-89:~$ mount
+```
 
-
-
-
-
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/fe2f381e-691e-482b-8f28-4a1b803f6aa5)
 
 
 
