@@ -74,6 +74,29 @@ Address: 52.218.153.90
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/ea24c754-1743-4832-9c9f-8de4cc23c69c)
 
 
+```
+┌─[✗]─[cwl@RedCloud]─[~/Desktop]
+└──╼ $nslookup 52.218.168.146
+146.168.218.52.in-addr.arpa	name = s3-website-us-west-2.amazonaws.com.
+
+Authoritative answers can be found from:
+218.52.in-addr.arpa	nameserver = pdns1.ultradns.net.
+218.52.in-addr.arpa	nameserver = x2.amazonaws.com.
+218.52.in-addr.arpa	nameserver = x4.amazonaws.org.
+218.52.in-addr.arpa	nameserver = x1.amazonaws.com.
+218.52.in-addr.arpa	nameserver = x3.amazonaws.org.
+x1.amazonaws.com	internet address = 156.154.64.10
+x2.amazonaws.com	internet address = 156.154.65.10
+x3.amazonaws.org	internet address = 156.154.150.1
+x4.amazonaws.org	internet address = 204.74.120.1
+pdns1.ultradns.net	internet address = 204.74.108.1
+pdns1.ultradns.net	has AAAA address 2001:502:f3ff::1
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/75269f94-1c21-4954-88cb-885ac590174e)
+
+
+
 
 
 
