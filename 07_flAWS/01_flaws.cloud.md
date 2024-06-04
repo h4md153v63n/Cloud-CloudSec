@@ -150,7 +150,8 @@ Default output format [None]:
 
 ```
 ┌─[cwl@RedCloud]─[~/Desktop]
-└──╼ $aws s3 cp s3://level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud/secret-e4443fc.html -<html>
+└──╼ $aws s3 cp s3://level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud/secret-e4443fc.html
+-<html>
     <head>
         <title>flAWS</title>
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
