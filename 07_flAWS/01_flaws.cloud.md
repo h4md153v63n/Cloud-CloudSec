@@ -195,6 +195,52 @@ Level 3 is at <a href="http://level3-9afd3927f195e10225021a578e6f78df.flaws.clou
 ### Level 3:
 Visit: http://level3-9afd3927f195e10225021a578e6f78df.flaws.cloud
 
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws s3 ls s3://level3-9afd3927f195e10225021a578e6f78df.flaws.cloud --recursive
+2017-09-17 20:42:24         52 .git/COMMIT_EDITMSG
+2017-09-17 20:42:24         23 .git/HEAD
+2017-09-17 20:42:24        130 .git/config
+2017-09-17 20:42:24         73 .git/description
+2017-09-17 20:42:24        452 .git/hooks/applypatch-msg.sample
+2017-09-17 20:42:24        896 .git/hooks/commit-msg.sample
+2017-09-17 20:42:24        189 .git/hooks/post-update.sample
+2017-09-17 20:42:24        398 .git/hooks/pre-applypatch.sample
+2017-09-17 20:42:24       1704 .git/hooks/pre-commit.sample
+2017-09-17 20:42:24       4898 .git/hooks/pre-rebase.sample
+2017-09-17 20:42:24       1239 .git/hooks/prepare-commit-msg.sample
+2017-09-17 20:42:24       3611 .git/hooks/update.sample
+2017-09-17 20:42:24        600 .git/index
+2017-09-17 20:42:24        240 .git/info/exclude
+2017-09-17 20:42:24        359 .git/logs/HEAD
+2017-09-17 20:42:24        359 .git/logs/refs/heads/master
+2017-09-17 20:42:24        679 .git/objects/0e/aa50ae75709eb4d25f07195dc74c7f3dca3e25
+2017-09-17 20:42:24        770 .git/objects/2f/c08f72c2135bb3af7af5803abb77b3e240b6df
+2017-09-17 20:42:25        820 .git/objects/53/23d77d2d914c89b220be9291439e3da9dada3c
+2017-09-17 20:42:25        245 .git/objects/61/a5ff2913c522d4cf4397f2500201ce5a8e097b
+2017-09-17 20:42:25     112013 .git/objects/76/e4934c9de40e36f09b4e5538236551529f723c
+2017-09-17 20:42:25        560 .git/objects/92/d5a82ef553aae51d7a2f86ea0a5b1617fafa0c
+2017-09-17 20:42:25        191 .git/objects/b6/4c8dcfa8a39af06521cf4cb7cdce5f0ca9e526
+2017-09-17 20:42:25         42 .git/objects/c2/aab7e03933a858d1765090928dca4013fe2526
+2017-09-17 20:42:25        904 .git/objects/db/932236a95ebf8c8a7226432cf1880e4b4017f2
+2017-09-17 20:42:25         98 .git/objects/e3/ae6dd991f0352cc307f82389d354c65f1874a2
+2017-09-17 20:42:25        279 .git/objects/f2/a144957997f15729d4491f251c3615d508b16a
+2017-09-17 20:42:25        125 .git/objects/f5/2ec03b227ea6094b04e43f475fb0126edb5a61
+2017-09-17 20:42:25         41 .git/refs/heads/master
+2017-02-27 05:44:33     123637 authenticated_users.png
+2017-02-27 05:44:34       1552 hint1.html
+2017-02-27 05:44:34       1426 hint2.html
+2017-02-27 05:44:35       1247 hint3.html
+2017-02-27 05:44:33       1035 hint4.html
+2020-05-22 23:51:10       1861 index.html
+2017-02-27 05:44:33         26 robots.txt
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/4cc84726-1e94-4559-9706-d906eeaa68fa)
+
+```
+
+```
 
 
 
