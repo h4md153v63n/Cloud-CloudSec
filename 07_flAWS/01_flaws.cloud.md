@@ -187,6 +187,10 @@ Level 3 is at <a href="http://level3-9afd3927f195e10225021a578e6f78df.flaws.clou
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/2d6a8059-6065-46c3-a731-d1df22d7d65b)
 
+**Alternatively**, navigate to http://s3-us-west-2.amazonaws.com/level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud/secret-e4443fc.html
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/44ecbe2c-38c4-4797-a0cf-8631f9fd4f3a)
+
 
 ### Level 3:
 Visit: http://level3-9afd3927f195e10225021a578e6f78df.flaws.cloud
