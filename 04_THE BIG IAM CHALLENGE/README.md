@@ -3,6 +3,18 @@ Buckets of Fun
 
 We all know that public buckets are risky. But can you find the flag?
 
+<center>
+<pre>
+ooooooooooooo ooooo   ooooo oooooooooooo      oooooooooo.  ooooo   .oooooo.         ooooo       .o.       ooo        ooooo        .oooooo.   ooooo   ooooo       .o.       ooooo        ooooo        oooooooooooo ooooo      ooo   .oooooo.    oooooooooooo 
+8'   888   `8 `888'   `888' `888'     `8      `888'   `Y8b `888'  d8P'  `Y8b        `888'      .888.      `88.       .888'       d8P'  `Y8b  `888'   `888'      .888.      `888'        `888'        `888'     `8 `888b.     `8'  d8P'  `Y8b   `888'     `8 
+     888       888     888   888               888     888  888  888                 888      .8"888.      888b     d'888       888           888     888      .8"888.      888          888          888          8 `88b.    8  888            888         
+     888       888ooooo888   888oooo8          888oooo888'  888  888                 888     .8' `888.     8 Y88. .P  888       888           888ooooo888     .8' `888.     888          888          888oooo8     8   `88b.  8  888            888oooo8    
+     888       888     888   888    "          888    `88b  888  888     ooooo       888    .88ooo8888.    8  `888'   888       888           888     888    .88ooo8888.    888          888          888    "     8     `88b.8  888     ooooo  888    "    
+     888       888     888   888       o       888    .88P  888  `88.    .88'        888   .8'     `888.   8    Y     888       `88b    ooo   888     888   .8'     `888.   888       o  888       o  888       o  8       `888  `88.    .88'   888       o 
+    o888o     o888o   o888o o888ooooood8      o888bood8P'  o888o  `Y8bood8P'        o888o o88o     o8888o o8o        o888o       `Y8bood8P'  o888o   o888o o88o     o8888o o888ooooood8 o888ooooood8 o888ooooood8 o8o        `8   `Y8bood8P'   o888ooooood8                                  
+</pre>
+</center>
+
 **Challenges:** https://bigiamchallenge.com
 + **Challenge 1:** https://github.com/h4md153v63n/CloudSec/blob/main/04_THE%20BIG%20IAM%20CHALLENGE/01_Challenge_1.md
 + **Challenge 2:** https://github.com/h4md153v63n/CloudSec/blob/main/04_THE%20BIG%20IAM%20CHALLENGE/02_Challenge_2.md
