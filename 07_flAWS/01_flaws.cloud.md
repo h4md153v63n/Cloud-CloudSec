@@ -105,6 +105,10 @@ pdns1.ultradns.net	has AAAA address 2001:502:f3ff::1
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/75269f94-1c21-4954-88cb-885ac590174e)
 
+Check: http://flaws.cloud.s3-website-us-west-2.amazonaws.com/
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/72326507-b007-4ff5-83ea-38282c4590b6)
+
 Visit: http://s3-us-west-2.amazonaws.com/flaws.cloud
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/fe0fe170-3a3c-402e-b2e8-f630d5b624e9)
