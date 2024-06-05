@@ -660,6 +660,14 @@ Try to access: http://level6-cc4c404a8a8b876167f5e70a7d8c9880.flaws.cloud/
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/eee30939-c442-46fb-81d1-d06f1a8d9efc)
 
+Check: http://4d0cf09b9b2d761a7d87be99d17507bce8b86f3b.flaws.cloud/proxy/169.254.169.254/
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/a2732453-2994-4d3a-8288-1af3a477680f)
+
+Control: http://4d0cf09b9b2d761a7d87be99d17507bce8b86f3b.flaws.cloud/proxy/169.254.169.254/latest/
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/d9dbe5e5-b0fd-49da-ac84-b97d4bc54901)
+
 Navigate: http://4d0cf09b9b2d761a7d87be99d17507bce8b86f3b.flaws.cloud/proxy/169.254.169.254/latest/meta-data/
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/e2531bf1-a520-4e46-bba9-43fb497a10a7)
@@ -723,7 +731,7 @@ AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjECUaCXVzLXdlc3QtMiJIMEYCIQDcPLruojywlrWbpzhbKw
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/49a585a0-1356-4a64-914a-880f8515191e)
 
-Navigate: ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/e4fc3577-cf77-43da-94e3-10a740cb93de)
+Navigate: http://level6-cc4c404a8a8b876167f5e70a7d8c9880.flaws.cloud/ddcc78ff/
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/72e3d17a-6bab-49fe-98ad-509f310fe9a9)
 
