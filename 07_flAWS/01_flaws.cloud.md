@@ -105,9 +105,8 @@ pdns1.ultradns.net	has AAAA address 2001:502:f3ff::1
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/75269f94-1c21-4954-88cb-885ac590174e)
 
-Check: http://flaws.cloud.s3-website-us-west-2.amazonaws.com/
-
-![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/72326507-b007-4ff5-83ea-38282c4590b6)
+#### Method 1:
+The URL format for S3 HTTP end points are `s3-<region>.amazonaws.com/<bucketname>`
 
 Visit: http://s3-us-west-2.amazonaws.com/flaws.cloud
 
@@ -116,6 +115,61 @@ Visit: http://s3-us-west-2.amazonaws.com/flaws.cloud
 Navigate: http://s3-us-west-2.amazonaws.com/flaws.cloud/secret-dd02c7c.html
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/f5dfa251-2694-44ec-92ea-da3c1d9927ee)
+
+#### Method 2:
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws s3 ls s3://flaws.cloud/ --no-sign-request --region us-west-2
+2017-03-14 08:30:38       2575 hint1.html
+2017-03-03 09:35:17       1707 hint2.html
+2017-03-03 09:35:11       1101 hint3.html
+2024-02-22 08:02:41       2861 index.html
+2018-07-10 22:17:16      15979 logo.png
+2017-02-27 07:29:28         46 robots.txt
+2017-02-27 07:29:30       1051 secret-dd02c7c.html
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/d0649f6f-959f-4e38-8ece-fd7e5b5c4958)
+
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws s3 cp s3://flaws.cloud/secret-dd02c7c.html - --no-sign-request --region us-west-2
+<html>
+    <head>
+        <title>flAWS</title>
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+        <style>
+            body { font-family: Andale Mono, monospace; }
+            :not(center) > pre { background-color: #202020; padding: 4px; border-radius: 5px; border-color:#00d000; 
+            border-width: 1px; border-style: solid;} 
+        </style>
+    </head>
+<body 
+  text="#00d000" 
+  bgcolor="#000000"  
+  style="max-width:800px; margin-left:auto ;margin-right:auto"
+  vlink="#00ff00" link="#00ff00">
+    
+<center>
+<pre >
+ _____  _       ____  __    __  _____
+|     || |     /    ||  |__|  |/ ___/
+|   __|| |    |  o  ||  |  |  (   \_ 
+|  |_  | |___ |     ||  |  |  |\__  |
+|   _] |     ||  _  ||  `  '  |/  \ |
+|  |   |     ||  |  | \      / \    |
+|__|   |_____||__|__|  \_/\_/   \___|
+</pre>
+
+<h1>Congrats! You found the secret file!</h1>
+</center>
+
+
+Level 2 is at <a href="http://level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud">http://level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud</a>
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/5857aa45-2a1d-4293-b9e4-0120f6229c83)
+
 
 
 ### Level 2:
