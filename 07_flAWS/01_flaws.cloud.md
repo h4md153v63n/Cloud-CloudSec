@@ -930,7 +930,7 @@ An error occurred (AccessDenied) when calling the ListObjectsV2 operation: Acces
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/64fa96c2-0370-42be-8d18-ff40ad1dfda1)
 
-General format is: `https://<rest-api-id>.execute-api.<region>.amazonaws.com/<stage-name>/<lambda function>`
+**General format** is: `https://<rest-api-id>.execute-api.<region>.amazonaws.com/<stage-name>/<lambda function>`
 
 Access the endpoint: https://s33ppypa75.execute-api.us-west-2.amazonaws.com/Prod/level6
 
@@ -945,7 +945,8 @@ Go to: http://theend-797237e8ada164bf9f12cebf93b282cf.flaws.cloud/d730aa2b/
 **Alternative Reviews:**
 + https://gist.github.com/dboyd13/ba106b92ad6b795100b766f7c86e532f
 + https://philkeeble.com/cloud/Flaws.Cloud-Walkthrough/
-+ 
++ https://kishoreramk.medium.com/hacking-aws-flaws-cloud-walkthrough-2f13083b0b4d
++ https://github.com/kh4sh3i/Cloud-Flaws-CTF/tree/main/flaws.cloud
 
 -->
 
