@@ -15,8 +15,8 @@
 </center>
 
 ## Solutions
-- Level 1
-- Level 2
+- [Level 1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#level-1)
+- [Level 2](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#level-2)
 
 
 ### Level 1
