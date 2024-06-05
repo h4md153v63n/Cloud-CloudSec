@@ -1,4 +1,4 @@
-![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/a297a724-2fdb-48cf-8a69-f1677b757b84)# flaws2.cloud
+# flaws2.cloud
 + http://flaws2.cloud/
 
 <center>
