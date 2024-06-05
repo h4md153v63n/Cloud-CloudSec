@@ -301,6 +301,7 @@ Visit: http://level2-g9785tw8478k4awxtbox9kk3c5ka8iiz.flaws2.cloud
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/2d02d846-c388-4138-ad26-aa17e53d43b8)
 
+Choose **digest** under **config**: 
 
 ```
 ┌─[✗]─[cwl@RedCloud]─[~/Desktop]
@@ -313,6 +314,12 @@ Visit: http://level2-g9785tw8478k4awxtbox9kk3c5ka8iiz.flaws2.cloud
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/e4f09c1b-3f0e-4772-b3d5-9fa16ba470eb)
 
+Download the config file using browser:
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/6eef6630-798a-4444-a725-bbf9593428f5)
+
+Grep username:password.
+
 ```
 ┌─[cwl@RedCloud]─[~/Desktop]
 └──╼ $cat 1e964f10-a061-4e7b-9290-4447e821fe9a | grep "/bin/sh -c htpasswd -b -c /etc/nginx/.htpasswd flaws2 secret_password"
@@ -320,10 +327,6 @@ Visit: http://level2-g9785tw8478k4awxtbox9kk3c5ka8iiz.flaws2.cloud
 ```
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/910551d0-9b75-4e9b-88f3-134c58aa859b)
-
-Download
-
-![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/6eef6630-798a-4444-a725-bbf9593428f5)
 
 Login http://container.target.flaws2.cloud/ with **laws2**:**secret_password** credentials:
 
