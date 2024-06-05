@@ -198,7 +198,7 @@ The next level: http://level2-g9785tw8478k4awxtbox9kk3c5ka8iiz.flaws2.cloud
 
 
 ### Level 2
-Visit: ttp://level2-g9785tw8478k4awxtbox9kk3c5ka8iiz.flaws2.cloud
+Visit: http://level2-g9785tw8478k4awxtbox9kk3c5ka8iiz.flaws2.cloud
 
 
 
