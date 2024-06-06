@@ -889,7 +889,9 @@ FROM cloudtrail
 <!--
 **Alternative Reviews: Defender**
 + https://codelabs.cs.pdx.edu/labs/W8.2_aws_flaws2/#4
-+ 
++ https://craftware.xyz/ctf/flaws/aws/2019/06/03/flAWS-Part-2-Defender.html
++ https://daycyberwox.com/exploiting-aws-3-defenders-perspective-flaws2cloud
++ https://kishoreramk.medium.com/flaws2-cloud-walkthrough-aws-cloud-security-5540360e512f
 
 -->
 
