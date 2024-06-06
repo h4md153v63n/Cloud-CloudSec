@@ -532,6 +532,41 @@ download: s3://flaws2-logs/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/c5b9164e-2467-42f0-b5fd-07b0bf7cfee1)
 
 
+```
+┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
+└──╼ $cat 653711331788_CloudTrail_us-east-1_20181128T2235Z_cR9ra7OH1rytWyXY.json | grep -i accountId
+{"Records":[{"eventVersion":"1.05","userIdentity":{"type":"AWSService","invokedBy":"ecs-tasks.amazonaws.com"},"eventTime":"2018-11-28T22:31:59Z","eventSource":"sts.amazonaws.com","eventName":"AssumeRole","awsRegion":"us-east-1","sourceIPAddress":"ecs-tasks.amazonaws.com","userAgent":"ecs-tasks.amazonaws.com","requestParameters":{"roleSessionName":"d190d14a-2404-45d6-9113-4eda22d7f2c7","roleArn":"arn:aws:iam::653711331788:role/level3"},"responseElements":{"credentials":{"sessionToken":"FQoGZXIvYXdzEFAaDEbnJXLefTT+kjlmKSKSBNgEUj8tJVL+szjaH5q2npYc2FIPgrLmfkRjK9KqtSW7+lo4WxteBTd77aeAcmIip4GceNBbU86zxGgS1IdNBzEOLnDw6biAzijG0Du/Qazx136qjy+kahHxPlR36C4y/0QrCUZpTFmP3uELsRIKkvhGvuBr6S10pTOZ+GjtUXN3iFV8Ea0KOo/fSP0d4LbZGwI957aJxs2I7N8ji/lKTfwPdq+sxXvSWnaOseinUxZUDS0zdI69CKb6C+qwhR5YTifqyuOvC9OoSlfcBN2FyHpRZf5Bd+Z+mPYTldbAvD/HcdbQo7U4jqlR2WGuXoBfwvypt/Kb6HtPp4g9O0HlTCc7Sb4uiJY81WMbaNFmmYXyj62gi+BN5QaA90YhWn9cU1x9gqt0uEgvSk/RdrwtulTtNyJcuuFvhlD1gaJHGc4eCoWApr+J9nrbPTvSo00sc8IYIVvwOi3NRsmP+ZA9aQOV/qg2L1cYxScQrQ/pKVOnYWJ4XuB0WL8gRYdo1bGI6LWGAtOV+fzVoXU0SfWH7UmPcvttqkWsv1Rr50pspmJneXeY6Ge1szNsvyHqmPFJj7GAXnEKl9xthHK3IaDc6HEprFqYw8SyQqYWGdpeism2S+V4XpIMbQJlC06BxyOg94H0Fiffzs8wwnCUpBU0s69X2tN8sxb4U3FqKl28mwCOuuaweZeGWq5MWxU7Fop2dmjaKN+u/N8F","accessKeyId":"ASIAZQNB3KHGNXWXBSJS","expiration":"Nov 29, 2018 4:31:59 AM"}},"requestID":"6b7d6c60-f35d-11e8-becc-39e7d43d4afe","eventID":"6177ca7e-860e-482c-bde9-50c735af58d6","resources":[{"ARN":"arn:aws:iam::653711331788:role/level3","accountId":"653711331788","type":"AWS::IAM::Role"}],"eventType":"AwsApiCall","recipientAccountId":"653711331788","sharedEventID":"1d18bf74-8392-4496-9dc4-a45cb799b8b4"},{"eventVersion":"1.05","userIdentity":{"type":"AWSService","invokedBy":"ecs-tasks.amazonaws.com"},"eventTime":"2018-11-28T22:31:59Z","eventSource":"sts.amazonaws.com","eventName":"AssumeRole","awsRegion":"us-east-1","sourceIPAddress":"ecs-tasks.amazonaws.com","userAgent":"ecs-tasks.amazonaws.com","requestParameters":{"roleSessionName":"d190d14a-2404-45d6-9113-4eda22d7f2c7","roleArn":"arn:aws:iam::653711331788:role/ecsTaskExecutionRole"},"responseElements":{"credentials":{"sessionToken":"FQoGZXIvYXdzEFAaDAhihig4wSQxSSiMjSKSBOW1B0tXzW8SIP7MtRZEikuZamVqb7hEQtmgX5LDeDzpOxpP4G9U8r3cZK74HNErY8W+Scri3Y8NVr/VO7MyzIXnpXiEDo10JfNYnA+urhxB+rYtPF6o8uzm40w/lqdq1/DyOkYYuFRtqWfS4Jy1t83KYAFTuX5IkTGekMidOkIcdnHjsZKQSqKs4U3MQ4doUG4nCyEERDv9yckTPq/R4fKEPTF1BN0jycyiSiR3OTPAWaLGMGxHthAKSA5IXosrPBAq0yD2HhSKZc0kbskCZyGOQCcmVAQK4IdEjyk4Lytc+PEDasvWiGoCQPEqlwwqFJm7EPm838MjCTi4ojN9nVYRP9hFYkXdvnVG6ScwoBfbg135vN1bqYgEKDncW780xUBRYwElM4Q2/6zv7DMj0UegbRJmAwtys4phLrItQqNLWPmBbW/pNgMYoT1IKfzDmuc27AyTHtL8t25hkYOLWZG19EYKm+XeHU9gbs0aDTPssjBFPZp7ssR35IHhgcw5m+etXSoXMxMuHNbVR46ZJ6uieR8roEZ8QfiIijyB8J7i2sH2JOY0HIOonbVYmqdtv++0D+1idTO+6ZbXJIKhEmDmZZDeenF2ZXQGH4PgA4udIdBXnhVLzVFkEKc1MWG3aAhuOhZLvnXkOpkn1XjwfDx3N0UyenOUR4x/gkY9+MEXMZAyO8Va2Y1vNZvnSCvTJtHDKN+u/N8F","accessKeyId":"ASIAZQNB3KHGMG7YRUEW","expiration":"Nov 29, 2018 4:31:59 AM"}},"requestID":"6b80a0b1-f35d-11e8-becc-39e7d43d4afe","eventID":"457af3a9-0b1b-44ca-91e1-8f4a0f873149","resources":[{"ARN":"arn:aws:iam::653711331788:role/ecsTaskExecutionRole","accountId":"653711331788","type":"AWS::IAM::Role"}],"eventType":"AwsApiCall","recipientAccountId":"653711331788","sharedEventID":"5397e1a9-82c7-4a00-9b1c-e44cbd688aa1"}]}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/675d49ee-d376-4971-9223-d3e7c3d9b55d)
+
+
+```
+┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
+└──╼ $nano ~/.aws/config
+┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
+└──╼ $tail -n 5 ~/.aws/config
+[profile target_security]
+region=us-east-1
+output=json
+source_profile = defender
+role_arn = arn:aws:iam::653711331788:role/security
+┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
+└──╼ $aws sts get-caller-identity --profile target_security
+{
+    "UserId": "AROAIKRY5GULQLYOGRMNS:botocore-session-1717678684",
+    "Account": "653711331788",
+    "Arn": "arn:aws:sts::653711331788:assumed-role/security/botocore-session-1717678684"
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/563151d4-e22b-431b-881f-742c6cc527af)
+
+
+### Objective 3: Use jq
+
+
+
 
 
 
