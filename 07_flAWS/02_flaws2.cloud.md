@@ -776,6 +776,107 @@ Parse the CloudTrail logs using the JSON tool **jq**.
 
 
 ### Objective 6: Use Athena 
+Navigate: https://console.aws.amazon.com/athena/home?region=us-east-1#query
+
+`create database flaws2;`
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/457f1000-2a70-4845-a002-402ee4cf496a)
+
+`aws s3api create-bucket --bucket flaws2abc123 --region us-east-1`
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/4d0de622-1ae3-4065-a18a-3f031d51eac1)
+
+Edit Settings:
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/4f935593-59d3-4449-bea2-593022c34313)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/49e746b6-f2f1-48dd-b049-1eff064eea8e)
+
+Run: `create database flaws2;`
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/76b1f210-e412-4a4c-af9c-5003c8127319)
+
+Query Successful:
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/5a4e4472-34c0-4244-81ba-f9e4e5ba47d7)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/c78aaf3f-a9e8-43a1-a57d-ee862f11b831)
+
+
+```
+CREATE EXTERNAL TABLE `cloudtrail`(
+    `eventversion` string COMMENT 'from deserializer', 
+    `useridentity` struct<type:string,principalid:string,arn:string,accountid:string,invokedby:string,accesskeyid:string,username:string,sessioncontext:struct<attributes:struct<mfaauthenticated:string,creationdate:string>,sessionissuer:struct<type:string,principalid:string,arn:string,accountid:string,username:string>>> COMMENT 'from deserializer', 
+    `eventtime` string COMMENT 'from deserializer', 
+    `eventsource` string COMMENT 'from deserializer', 
+    `eventname` string COMMENT 'from deserializer', 
+    `awsregion` string COMMENT 'from deserializer', 
+    `sourceipaddress` string COMMENT 'from deserializer', 
+    `useragent` string COMMENT 'from deserializer', 
+    `errorcode` string COMMENT 'from deserializer', 
+    `errormessage` string COMMENT 'from deserializer', 
+    `requestparameters` string COMMENT 'from deserializer', 
+    `responseelements` string COMMENT 'from deserializer', 
+    `additionaleventdata` string COMMENT 'from deserializer', 
+    `requestid` string COMMENT 'from deserializer', 
+    `eventid` string COMMENT 'from deserializer', 
+    `resources` array<struct<arn:string,accountid:string,type:string>> COMMENT 'from deserializer', 
+    `eventtype` string COMMENT 'from deserializer', 
+    `apiversion` string COMMENT 'from deserializer', 
+    `readonly` string COMMENT 'from deserializer', 
+    `recipientaccountid` string COMMENT 'from deserializer', 
+    `serviceeventdetails` string COMMENT 'from deserializer', 
+    `sharedeventid` string COMMENT 'from deserializer', 
+    `vpcendpointid` string COMMENT 'from deserializer')
+ROW FORMAT SERDE 
+    'com.amazon.emr.hive.serde.CloudTrailSerde' 
+STORED AS INPUTFORMAT 
+    'com.amazon.emr.cloudtrail.CloudTrailInputFormat' 
+OUTPUTFORMAT 
+    'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
+LOCATION
+    's3://flaws2-logs/AWSLogs/653711331788/CloudTrail';
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/c57bc1db-4e7a-4c35-85e9-42b4382a0c8d)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/4b1e7dc1-c345-468d-b4bf-1e52032e9ae6)
+
+Run a SQL query on the cloudtrail table created to list the events that have been reported:
+```
+select eventtime, eventname from cloudtrail;
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/38b0e04b-8ec3-415c-b8dd-d39b5330df76)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/5dde294d-d604-478b-b8f6-c26e60d8b142)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/2e6804d9-cbb5-4bea-b48a-845d830d0129)
+
+
+Then, run a SQL query to find the count of each event in the logs:
+```
+SELECT 
+    eventname,
+    count(*) AS mycount 
+FROM cloudtrail 
+GROUP BY eventname 
+ORDER BY mycount;
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/53903060-6853-4019-8c67-1a0aa8d2b578)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/fadee9d4-0399-42e6-ae83-ad79b3aea617)
+
+
+```
+SELECT eventname, awsregion, sourceipaddress, useragent
+FROM cloudtrail
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/194955a0-ba65-4eb3-af17-291e156050cd)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/134db89b-5cd2-4bd4-a8a9-04a81dc45b39)
 
 
 
@@ -786,6 +887,4 @@ Parse the CloudTrail logs using the JSON tool **jq**.
 + 
 
 -->
-
-
 
