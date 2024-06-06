@@ -582,14 +582,77 @@ role_arn = arn:aws:iam::653711331788:role/security
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/9a62a197-87f7-4c22-af8d-356513e0f1bd)
 
 
-
 ### Objective 3: Use jq
+```
+┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
+└──╼ $cat * | jq | tail -n 30
+      "sourceIPAddress": "104.102.221.250",
+      "userAgent": "[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]",
+      "requestParameters": {
+        "bucketName": "the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud",
+        "key": "favicon.ico"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "x-amz-id-2": "tLMpJDK15z1teLvIzReA3N4IMnNATUrOrGfoPS0kxZ27SPTRVbxUtdmmucw3XfEW5XzIzUkrCiU="
+      },
+      "requestID": "9880010F3D39F3AC",
+      "eventID": "dee6f6a3-f18a-40db-a6fd-b96d05502266",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud/favicon.ico"
+        },
+        {
+          "accountId": "653711331788",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "653711331788",
+      "sharedEventID": "f8c6cdc8-6ec1-4e14-9a0e-f300b16e282e"
+    }
+  ]
+```
 
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/890cf187-77d4-4ef2-936a-7559a32a7b62)
 
+```
+┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
+└──╼ $cat * | jq '.Records[]|.eventName' | tail -n 8
+"GetObject"
+"GetObject"
+"GetObject"
+"GetObject"
+"GetObject"
+"ListBuckets"
+"GetObject"
+"GetObject"
+┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
+└──╼ $cat * | jq -cr '.Records[]|[.eventTime, .eventName]|@tsv' | sort | tail -n 8
+2018-11-28T23:05:53Z	ListImages
+2018-11-28T23:06:17Z	BatchGetImage
+2018-11-28T23:06:33Z	GetDownloadUrlForLayer
+2018-11-28T23:07:08Z	GetObject
+2018-11-28T23:07:08Z	GetObject
+2018-11-28T23:09:28Z	ListBuckets
+2018-11-28T23:09:36Z	GetObject
+2018-11-28T23:09:36Z	GetObject
+┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
+└──╼ $cat * | jq -cr '.Records[]|[.eventTime, .sourceIPAddress, .userIdentity.arn, .userIdentity.accountId, .userIdentity.type, .eventName]|@tsv' | sort | tail -n 8
+2018-11-28T23:05:53Z	104.102.221.250	arn:aws:sts::653711331788:assumed-role/level1/level1	653711331788	AssumedRole	ListImages
+2018-11-28T23:06:17Z	104.102.221.250	arn:aws:sts::653711331788:assumed-role/level1/level1	653711331788	AssumedRole	BatchGetImage
+2018-11-28T23:06:33Z	104.102.221.250	arn:aws:sts::653711331788:assumed-role/level1/level1	653711331788	AssumedRole	GetDownloadUrlForLayer
+2018-11-28T23:07:08Z	104.102.221.250		ANONYMOUS_PRINCIPAL	AWSAccount	GetObject
+2018-11-28T23:07:08Z	104.102.221.250		ANONYMOUS_PRINCIPAL	AWSAccount	GetObject
+2018-11-28T23:09:28Z	104.102.221.250	arn:aws:sts::653711331788:assumed-role/level3/d190d14a-2404-45d6-9113-4eda22d7f2c7	653711331788	AssumedRole	ListBuckets
+2018-11-28T23:09:36Z	104.102.221.250		ANONYMOUS_PRINCIPAL	AWSAccount	GetObject
+2018-11-28T23:09:36Z	104.102.221.250		ANONYMOUS_PRINCIPAL	AWSAccount	GetObject
+```
 
-
-
-
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/28eb5561-fb15-49cd-b909-3cf3422aff6f)
 
 
 ### Objective 4: Identify credential theft
