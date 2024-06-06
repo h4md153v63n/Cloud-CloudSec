@@ -1,5 +1,4 @@
 # flaws2.cloud
-+ http://level1.flaws2.cloud/
 
 <center>
 <pre>
@@ -14,6 +13,9 @@
 </pre>
 </center>
 
+
+# Attacker
++ http://level1.flaws2.cloud/
 
 ## Solutions
 - [Level 1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#level-1)
@@ -416,3 +418,17 @@ Navigate: http://the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud/
 
 -->
 
+---
+
+
+# Defender
++ http://flaws2.cloud/defender.htm
+
+## Solutions
+- [Level 1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#level-1)
+- [Level 2](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#level-2)
+- [Level 3](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#level-3)
+
+
+### Level 1
+Visit: http://flaws2.cloud/defender.htm
