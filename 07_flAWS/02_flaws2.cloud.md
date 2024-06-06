@@ -878,6 +878,7 @@ FROM cloudtrail
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/134db89b-5cd2-4bd4-a8a9-04a81dc45b39)
 
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/b2f0dcd2-2532-4c48-927e-4861ba7b4947)
 
 
 
