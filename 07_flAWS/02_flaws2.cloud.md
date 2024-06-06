@@ -1,4 +1,7 @@
 # flaws2.cloud
++ [Attacker](https://github.com/h4md153v63n/CloudSec/edit/main/07_flAWS/02_flaws2.cloud.md#attacker)
++ [Defender](https://github.com/h4md153v63n/CloudSec/edit/main/07_flAWS/02_flaws2.cloud.md#defender)
+
 
 <center>
 <pre>
