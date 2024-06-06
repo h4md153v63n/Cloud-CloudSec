@@ -415,7 +415,7 @@ Navigate: http://the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud/
 
 
 <!--
-**Alternative Reviews:**
+**Alternative Reviews: Attacker**
 + https://executeatwill.com/2022/01/20/Flaws2.Cloud-Walkthrough/
 + https://craftware.xyz/ctf/flaws/aws/2019/06/01/flAWS-Part-2-Attacker.html
 + https://awstip.com/flaws2-cloud-level-1-walkthrough-793c1c6593d5
@@ -596,6 +596,14 @@ role_arn = arn:aws:iam::653711331788:role/security
 ### Objective 6: Use Athena 
 
 
+
+
+<!--
+**Alternative Reviews: Defender**
++ https://codelabs.cs.pdx.edu/labs/W8.2_aws_flaws2/#4
++ 
+
+-->
 
 
 
