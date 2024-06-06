@@ -418,6 +418,9 @@ Navigate: http://the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud/
 + https://craftware.xyz/ctf/flaws/aws/2019/06/01/flAWS-Part-2-Attacker.html
 + https://awstip.com/flaws2-cloud-level-1-walkthrough-793c1c6593d5
 + https://medium.com/@terminalsandcoffee/enumerating-containers-in-aws-bfb0899d8caa
++ https://daycyberwox.com/exploiting-aws-2-attackers-perspective-flaws2cloud
++ https://codelabs.cs.pdx.edu/labs/W8.2_aws_flaws2/#1
++ https://kishoreramk.medium.com/flaws2-cloud-walkthrough-aws-cloud-security-5540360e512f
 
 -->
 
@@ -428,10 +431,16 @@ Navigate: http://the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud/
 + http://flaws2.cloud/defender.htm
 
 ## Solutions
-- [Level 1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#level-1)
-- [Level 2](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#level-2)
-- [Level 3](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#level-3)
+- Objective 1: Download CloudTrail logs
+- Objective 2: Access the Target account
+- Objective 3: Use jq
+- Objective 4: Identify credential theft
+- Objective 5: Identify the public resource
+- Objective 6: Use Athena 
 
+<img width="424" alt="defender_account" src="https://github.com/h4md153v63n/CloudSec/assets/5091265/3a44ed83-aa4e-40f7-a9bf-f4ba06dc8c9a">
 
 ### Level 1
 Visit: http://flaws2.cloud/defender.htm
+
+
