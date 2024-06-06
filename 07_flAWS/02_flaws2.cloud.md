@@ -543,6 +543,7 @@ download: s3://flaws2-logs/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/675d49ee-d376-4971-9223-d3e7c3d9b55d)
 
+The important thing to notice is when your account ID is **322079859186**, you are running in the security account, and when it is **653711331788**, you are running in the context of the target account. 
 
 ```
 ┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
@@ -557,13 +558,29 @@ role_arn = arn:aws:iam::653711331788:role/security
 ┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
 └──╼ $aws sts get-caller-identity --profile target_security
 {
-    "UserId": "AROAIKRY5GULQLYOGRMNS:botocore-session-1717678684",
+    "UserId": "AROAIKRY5GULQLYOGRMNS:botocore-session-1717682268",
     "Account": "653711331788",
-    "Arn": "arn:aws:sts::653711331788:assumed-role/security/botocore-session-1717678684"
+    "Arn": "arn:aws:sts::653711331788:assumed-role/security/botocore-session-1717682268"
 }
+┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
+└──╼ $aws sts get-caller-identity --profile defender
+{
+    "UserId": "AIDAJXZBU42TNFRNGBBFI",
+    "Account": "322079859186",
+    "Arn": "arn:aws:iam::322079859186:user/security"
+}
+┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
+└──╼ $aws s3 ls --profile target_security
+2018-11-21 01:20:08 flaws2.cloud
+2018-11-21 00:15:26 level1.flaws2.cloud
+2018-11-21 07:11:16 level2-g9785tw8478k4awxtbox9kk3c5ka8iiz.flaws2.cloud
+2018-11-27 01:17:22 level3-oc6ou6dnkw8sszwvdrraxc5t5udrsw3s.flaws2.cloud
+2018-11-28 02:07:27 the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud
+
 ```
 
-![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/563151d4-e22b-431b-881f-742c6cc527af)
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/9a62a197-87f7-4c22-af8d-356513e0f1bd)
+
 
 
 ### Objective 3: Use jq
