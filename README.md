@@ -13,8 +13,8 @@ Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
 + **02-HTB: Fortresses / AWS:** The links [1](https://github.com/h4md153v63n/CloudSec/blob/main/05_Fortresses-AWS/README.md) [2](https://app.hackthebox.com/fortresses/7)
 + **03-flAWS:** The links [1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/README.md) 
    + **flaws.cloud:** [1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md) [2](http://flaws.cloud/) 
-   + **flaws2.cloud - Attacker:** [1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#1-attacker-path) [2](http://level1.flaws2.cloud/)
-   + **flaws2.cloud - Defender:** [1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#2-defender-path) [2](http://flaws2.cloud/defender.htm)
+   + **flaws2.cloud - Attacker Path:** [1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#1-attacker-path) [2](http://level1.flaws2.cloud/)
+   + **flaws2.cloud - Defender Path:** [1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#2-defender-path) [2](http://flaws2.cloud/defender.htm)
 + **04-Pwned Labs:** The links [1](https://github.com/h4md153v63n/CloudSec/blob/main/06_Pwned-Labs/README.md) [2](https://pwnedlabs.io/) 
 
 
