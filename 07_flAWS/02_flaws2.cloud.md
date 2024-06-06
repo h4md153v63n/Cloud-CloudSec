@@ -662,11 +662,83 @@ Parse the CloudTrail logs using the JSON tool **jq**.
 
 
 ### Objective 4: Identify credential theft
+```
+┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
+└──╼ $cat * | jq '.Records[]|select(.eventName=="ListBuckets")'
+{
+  "eventVersion": "1.05",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAJQMBDNUMIKLZKMF64:d190d14a-2404-45d6-9113-4eda22d7f2c7",
+    "arn": "arn:aws:sts::653711331788:assumed-role/level3/d190d14a-2404-45d6-9113-4eda22d7f2c7",
+    "accountId": "653711331788",
+    "accessKeyId": "ASIAZQNB3KHGNXWXBSJS",
+    "sessionContext": {
+      "attributes": {
+        "mfaAuthenticated": "false",
+        "creationDate": "2018-11-28T22:31:59Z"
+      },
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAJQMBDNUMIKLZKMF64",
+        "arn": "arn:aws:iam::653711331788:role/level3",
+        "accountId": "653711331788",
+        "userName": "level3"
+      }
+    }
+  },
+  "eventTime": "2018-11-28T23:09:28Z",
+  "eventSource": "s3.amazonaws.com",
+  "eventName": "ListBuckets",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "104.102.221.250",
+  "userAgent": "[aws-cli/1.16.19 Python/2.7.10 Darwin/17.7.0 botocore/1.12.9]",
+  "requestParameters": null,
+  "responseElements": null,
+  "requestID": "4698593B9338B27F",
+  "eventID": "65e111a0-83ae-4ba8-9673-16291a804873",
+  "eventType": "AwsApiCall",
+  "recipientAccountId": "653711331788"
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/83ba5c33-de58-4b0c-802a-ed6064b172fd)
 
 
+```
+┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
+└──╼ $aws iam get-role --role-name level3 --profile target_security
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "level3",
+        "RoleId": "AROAJQMBDNUMIKLZKMF64",
+        "Arn": "arn:aws:iam::653711331788:role/level3",
+        "CreateDate": "2018-11-23T17:55:27Z",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Sid": "",
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "ecs-tasks.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "Description": "Allows ECS tasks to call AWS services on your behalf.",
+        "MaxSessionDuration": 3600,
+        "RoleLastUsed": {
+            "LastUsedDate": "2024-06-06T07:33:20Z",
+            "Region": "us-west-2"
+        }
+    }
+}
+```
 
-
-
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/24b73e98-2a4b-4a1d-a29d-a9d1c9cde2fd)
 
 
 
