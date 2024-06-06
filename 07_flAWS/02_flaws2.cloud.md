@@ -1,6 +1,6 @@
 # flaws2.cloud
-+ [**Attacker**](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#attacker)
-+ [**Defender**](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#defender)
++ [**Attacker Path**](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#attacker)
++ [**Defender Path**](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#defender)
 
 
 <center>
