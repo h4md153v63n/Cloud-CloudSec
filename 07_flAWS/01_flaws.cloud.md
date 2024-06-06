@@ -948,6 +948,7 @@ Go to: http://theend-797237e8ada164bf9f12cebf93b282cf.flaws.cloud/d730aa2b/
 + https://kishoreramk.medium.com/hacking-aws-flaws-cloud-walkthrough-2f13083b0b4d
 + https://github.com/kh4sh3i/Cloud-Flaws-CTF/tree/main/flaws.cloud
 + https://executeatwill.com/2022/01/17/Flaws.Cloud-Walkthrough/
++ https://craftware.xyz/ctf/flaws/aws/2019/05/01/flAWS-Part-1.html
 
 -->
 
