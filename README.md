@@ -15,6 +15,7 @@ Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
    + **flaws.cloud:** [1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md) [2](http://flaws.cloud/) 
    + **flaws2.cloud - Attacker:** [1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#1-attacker-path) [2](http://level1.flaws2.cloud/)
    + **flaws2.cloud - Defender:** [1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#2-defender-path) [2](http://flaws2.cloud/defender.htm)
++ **04-Pwned Labs:** The links [1](https://github.com/h4md153v63n/CloudSec/blob/main/06_Pwned-Labs/README.md) [2](https://pwnedlabs.io/) 
 
 
 ## Cloud Security Labs:
