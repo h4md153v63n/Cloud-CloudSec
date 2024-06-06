@@ -786,6 +786,10 @@ Navigate: https://console.aws.amazon.com/athena/home?region=us-east-1#query
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/4d0de622-1ae3-4065-a18a-3f031d51eac1)
 
+Also check bucket like in the below:
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/225be202-42ed-4665-83fb-4c4daf54ec30)
+
 Edit Settings:
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/4f935593-59d3-4449-bea2-593022c34313)
