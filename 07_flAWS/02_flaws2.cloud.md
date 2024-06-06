@@ -743,12 +743,36 @@ Parse the CloudTrail logs using the JSON tool **jq**.
 
 
 ### Objective 5: Identify the public resource
+```
+┌─[✗]─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
+└──╼ $aws ecr get-repository-policy --repository-name level2 --profile target_security
+{
+    "registryId": "653711331788",
+    "repositoryName": "level2",
+    "policyText": "{\n  \"Version\" : \"2008-10-17\",\n  \"Statement\" : [ {\n    \"Sid\" : \"AccessControl\",\n    \"Effect\" : \"Allow\",\n    \"Principal\" : \"*\",\n    \"Action\" : [ \"ecr:GetDownloadUrlForLayer\", \"ecr:BatchGetImage\", \"ecr:BatchCheckLayerAvailability\", \"ecr:ListImages\", \"ecr:DescribeImages\" ]\n  } ]\n}"
+}
+┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
+└──╼ $aws ecr get-repository-policy --repository-name level2 --profile target_security | jq '.policyText|fromjson'
+{
+  "Version": "2008-10-17",
+  "Statement": [
+    {
+      "Sid": "AccessControl",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": [
+        "ecr:GetDownloadUrlForLayer",
+        "ecr:BatchGetImage",
+        "ecr:BatchCheckLayerAvailability",
+        "ecr:ListImages",
+        "ecr:DescribeImages"
+      ]
+    }
+  ]
+}
+```
 
-
-
-
-
-
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/1b30953e-194d-42c1-ae7b-5b58f692139c)
 
 
 ### Objective 6: Use Athena 
