@@ -436,7 +436,7 @@ Navigate: http://the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud/
 - [Objective 2: Access the Target account](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#objective-2-access-the-target-account)
 - [Objective 3: Use jq](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#objective-3-use-jq)
 - [Objective 4: Identify credential theft](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#objective-4-identify-credential-theft)
-- Objective 5: Identify the public resource
+- [Objective 5: Identify the public resource](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#objective-5-identify-the-public-resource)
 - Objective 6: Use Athena 
 
 <img width="424" alt="defender_account" src="https://github.com/h4md153v63n/CloudSec/assets/5091265/3a44ed83-aa4e-40f7-a9bf-f4ba06dc8c9a">
