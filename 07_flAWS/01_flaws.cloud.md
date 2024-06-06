@@ -947,6 +947,7 @@ Go to: http://theend-797237e8ada164bf9f12cebf93b282cf.flaws.cloud/d730aa2b/
 + https://philkeeble.com/cloud/Flaws.Cloud-Walkthrough/
 + https://kishoreramk.medium.com/hacking-aws-flaws-cloud-walkthrough-2f13083b0b4d
 + https://github.com/kh4sh3i/Cloud-Flaws-CTF/tree/main/flaws.cloud
++ https://executeatwill.com/2022/01/17/Flaws.Cloud-Walkthrough/
 
 -->
 
