@@ -430,8 +430,9 @@ Navigate: http://the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud/
 # Defender
 + http://flaws2.cloud/defender.htm
 
+
 ## Solutions
-- Objective 1: Download CloudTrail logs
+- [Objective 1: Download CloudTrail logs](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#objective-1-download-cloudtrail-logs)
 - Objective 2: Access the Target account
 - Objective 3: Use jq
 - Objective 4: Identify credential theft
@@ -501,6 +502,8 @@ download: s3://flaws2-logs/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/beb047ea-72a8-467c-b811-84e094762fba)
 
+
+### Objective 2: Access the Target account
 
 
 
