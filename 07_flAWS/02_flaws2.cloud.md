@@ -435,7 +435,7 @@ Navigate: http://the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud/
 - [Objective 1: Download CloudTrail logs](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#objective-1-download-cloudtrail-logs)
 - [Objective 2: Access the Target account](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#objective-2-access-the-target-account)
 - [Objective 3: Use jq](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#objective-3-use-jq)
-- [Objective 4: Identify credential theft](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#defender)
+- [Objective 4: Identify credential theft](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/02_flaws2.cloud.md#objective-4-identify-credential-theft)
 - Objective 5: Identify the public resource
 - Objective 6: Use Athena 
 
