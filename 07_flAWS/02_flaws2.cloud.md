@@ -440,7 +440,67 @@ Navigate: http://the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud/
 
 <img width="424" alt="defender_account" src="https://github.com/h4md153v63n/CloudSec/assets/5091265/3a44ed83-aa4e-40f7-a9bf-f4ba06dc8c9a">
 
-### Level 1
+
+### Objective 1: Download CloudTrail logs
 Visit: http://flaws2.cloud/defender.htm
+
+```
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $nano ~/.aws/credentials
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $tail -n 3 ~/.aws/credentials
+[defender]
+AWS_ACCESS_KEY_ID=AKIAIUFNQ2WCOPTEITJ Q
+AWS_SECRET_ACCESS_KEY=paVI8VgTWkPI3jDNkdzUMvK4CcdXO2T7sePX0dd F
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws sts get-caller-identity --profile defender
+{
+    "UserId": "AIDAJXZBU42TNFRNGBBFI",
+    "Account": "322079859186",
+    "Arn": "arn:aws:iam::322079859186:user/security"
+}
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws s3 ls --profile defender
+2018-11-20 02:24:31 flaws2-logs
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/917e17d7-ec00-4b95-8835-10c9f736c7e5)
+
+
+```
+┌─[cwl@RedCloud]─[~/Desktop/defender]
+└──╼ $aws s3 sync s3://flaws2-logs . --profile defender
+download: s3://flaws2-logs/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2310Z_rp9i9zxR2Vcpqfnz.json.gz to AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2310Z_rp9i9zxR2Vcpqfnz.json.gz
+download: s3://flaws2-logs/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2310Z_7J9NEIxrjJsrlXSd.json.gz to AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2310Z_7J9NEIxrjJsrlXSd.json.gz
+download: s3://flaws2-logs/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2305Z_zKlMhON7EpHala9u.json.gz to AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2305Z_zKlMhON7EpHala9u.json.gz
+download: s3://flaws2-logs/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2310Z_A1lhv3sWzzRIBFVk.json.gz to AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2310Z_A1lhv3sWzzRIBFVk.json.gz
+download: s3://flaws2-logs/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2310Z_jQajCuiobojD8I4y.json.gz to AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2310Z_jQajCuiobojD8I4y.json.gz
+download: s3://flaws2-logs/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2310Z_jJW5HfNtz7kOnvcP.json.gz to AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2310Z_jJW5HfNtz7kOnvcP.json.gz
+download: s3://flaws2-logs/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2305Z_83VTWZ8Z0kiEC7Lq.json.gz to AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2305Z_83VTWZ8Z0kiEC7Lq.json.gz
+download: s3://flaws2-logs/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2235Z_cR9ra7OH1rytWyXY.json.gz to AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/653711331788_CloudTrail_us-east-1_20181128T2235Z_cR9ra7OH1rytWyXY.json.gz
+┌─[cwl@RedCloud]─[~/Desktop/defender]
+└──╼ $ls AWSLogs/
+653711331788
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/ed92fe83-f690-4be5-bfc3-32fac4b1461b)
+
+
+```
+┌─[cwl@RedCloud]─[~/Desktop/defender]
+└──╼ $ls AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/
+653711331788_CloudTrail_us-east-1_20181128T2235Z_cR9ra7OH1rytWyXY.json.gz
+653711331788_CloudTrail_us-east-1_20181128T2305Z_83VTWZ8Z0kiEC7Lq.json.gz
+653711331788_CloudTrail_us-east-1_20181128T2305Z_zKlMhON7EpHala9u.json.gz
+653711331788_CloudTrail_us-east-1_20181128T2310Z_7J9NEIxrjJsrlXSd.json.gz
+653711331788_CloudTrail_us-east-1_20181128T2310Z_A1lhv3sWzzRIBFVk.json.gz
+653711331788_CloudTrail_us-east-1_20181128T2310Z_jJW5HfNtz7kOnvcP.json.gz
+653711331788_CloudTrail_us-east-1_20181128T2310Z_jQajCuiobojD8I4y.json.gz
+653711331788_CloudTrail_us-east-1_20181128T2310Z_rp9i9zxR2Vcpqfnz.json.gz
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/beb047ea-72a8-467c-b811-84e094762fba)
+
+
 
 
