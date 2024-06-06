@@ -430,7 +430,7 @@ Navigate: http://the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud/
 
 
 # Defender
-The Defender path of flaws2.cloud allows one to **simulate an incident responder** to the events generated on the Attacker path.
+The Defender path of flaws2.cloud allows one to **simulate an incident responder** to the events generated on the Defender path.
 + http://flaws2.cloud/defender.htm
 
 
