@@ -406,3 +406,13 @@ Navigate: http://the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud/
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/0068b58a-4a3e-445c-abaf-a3496de1f4db)
 
+
+<!--
+**Alternative Reviews:**
++ https://executeatwill.com/2022/01/20/Flaws2.Cloud-Walkthrough/
++ https://craftware.xyz/ctf/flaws/aws/2019/06/01/flAWS-Part-2-Attacker.html
++ https://awstip.com/flaws2-cloud-level-1-walkthrough-793c1c6593d5
++ https://medium.com/@terminalsandcoffee/enumerating-containers-in-aws-bfb0899d8caa
+
+-->
+
