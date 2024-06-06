@@ -446,6 +446,8 @@ The Defender path of flaws2.cloud allows one to **simulate an incident responder
 
 
 ### Objective 1: Download CloudTrail logs
+The Defender path of flaws2.cloud allows one to simulate an incident responder to the events generated on the Defender path. The first objective is to access the CloudTrail log files collected during the attack.
+
 Visit: http://flaws2.cloud/defender.htm
 
 ```
@@ -507,6 +509,8 @@ download: s3://flaws2-logs/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28/
 
 
 ### Objective 2: Access the Target account
+The Defender has an AWS Account ID (322079859186) that is different from the AWS Account ID of the compromised site (653711331788). The compromised site has granted the Defender permissions to access its resources in order to investigate. This is done via a specified role in the target.
+
 ```
 ┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
 └──╼ $ls
@@ -583,6 +587,8 @@ role_arn = arn:aws:iam::653711331788:role/security
 
 
 ### Objective 3: Use jq
+Parse the CloudTrail logs using the JSON tool **jq**.
+
 ```
 ┌─[cwl@RedCloud]─[~/Desktop/defender/AWSLogs/653711331788/CloudTrail/us-east-1/2018/11/28]
 └──╼ $cat * | jq | tail -n 30
