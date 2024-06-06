@@ -17,7 +17,7 @@
 </center>
 
 
-# Attacker
+# Attacker Path
 This level contains two application vulnerabilities that allow an attacker to then pivot to gain unauthorized access to cloud resources of the project. As a result of over-provisioned privileges in the infrastructure running the application, a compromise of the application then leads to extensive access to backend resources (e.g. storage buckets).
 + http://level1.flaws2.cloud/
 
@@ -429,7 +429,7 @@ Navigate: http://the-end-962b72bjahfm5b4wcktm8t9z4sapemjb.flaws2.cloud/
 ---
 
 
-# Defender
+# Defender Path
 The Defender path of flaws2.cloud allows one to **simulate an incident responder** to the events generated on the Defender path.
 + http://flaws2.cloud/defender.htm
 
