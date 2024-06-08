@@ -123,4 +123,4 @@ In a single course, MCSI offers multiple industry certifications. You will save 
 ## Actively Maintained Course
 This course is actively maintained to ensure that it is current and error-free. We want to ensure that you have the best possible experience while taking this course, which includes having access to accurate and current information. This course is also tested for flaws on a regular basis, so you can be sure you're getting a high-quality product.
 
-This course is constantly updated with the support of trustworthy industry peers to ensure that students are acquiring the most up-to-date information and skills. This dedication to staying ahead of the curve is what distinguishes this course as one of the greatest in the market. 
+**This course is constantly updated** with the support of trustworthy industry peers to ensure that students are acquiring **the most up-to-date information and skills**. This dedication to **staying ahead of the curve** is what distinguishes this course as one of the greatest in the market. 
