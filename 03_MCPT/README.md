@@ -24,10 +24,10 @@ Cloud penetration testing is a newer form of penetration testing that focuses sp
 If you're looking to become a certified penetration tester capable of performing cloud penetration testing, our cloud security certification will give you the skills you need to succeed. This course covers AWS, GCP and Azure, so you'll be prepared to take on any cloud environment.
 
 The MCSI Cloud Penetration Testing (MCPT) certification will equip you with the skillset necessary to carry out the following tasks:
-   - Identify vulnerabilities in cloud services such as Cloud Formation, RDS instances, Azure AD, buckets, and lambda
-   - Discover and enumerate vulnerable users and service accounts
-   - Deliver post-exploitation attacks against AWS, Azure and GCP
-   - Attack serverless applications and APIs
+- Identify vulnerabilities in cloud services such as Cloud Formation, RDS instances, Azure AD, buckets, and lambda
+- Discover and enumerate vulnerable users and service accounts
+- Deliver post-exploitation attacks against AWS, Azure and GCP
+- Attack serverless applications and APIs
 
 A penetration tester with cloud testing skills can earn a 6-figure salary. This is a very important skill, as cloud providers are increasingly popular targets for hackers. As more and more businesses move their operations to the cloud, the need for professionals who can protect them from cyberattacks will only grow.
 
@@ -36,39 +36,39 @@ A penetration tester with cloud testing skills can earn a 6-figure salary. This 
 MCSI is one of the most respected and trusted names in cyber security education and training. Our certifications teach critical skills, knowledge and abilities needed to advance a career in cyber security. Our courses are comprehensive and up-to-date, and our instructors are experienced professionals who are dedicated to helping students learn. MCSI provides the real-world skills and knowledge you need to protect any organization from cyber threats. 
 
 **Attack AWS:**
-    - S3 Buckets
-    - Route 53
-    - Lambda
-    - IAM Accounts and Groups
-    - RDS Instances
-    - Cloud Formations
-    - CloudTrail
-    - GuardDuty
+- S3 Buckets
+- Route 53
+- Lambda
+- IAM Accounts and Groups
+- RDS Instances
+- Cloud Formations
+- CloudTrail
+- GuardDuty
 
 **Attack Azure:**
-    - Storage
-    - Multi-Factor Authentication
-    - Subscript Information
-    - IAM Accounts and Groups
-    - Resource Manager
-    - Profile Tokens
-    - Certificates
-    - ExpressRoute
-    - Key Vault
+- Storage
+- Multi-Factor Authentication
+- Subscript Information
+- IAM Accounts and Groups
+- Resource Manager
+- Profile Tokens
+- Certificates
+- ExpressRoute
+- Key Vault
 
 **Attack GCP:**
-    - Storage
-    - Instances
-    - IAM Accounts and Groups
-    - Service Accounts
-    - Databases
-    - Keys
+- Storage
+- Instances
+- IAM Accounts and Groups
+- Service Accounts
+- Databases
+- Keys
 
 
 ## Career Outcomes
 This certification thoroughly prepares you for the following roles:
-    - Senior Penetration Tester
-    - Vulnerability Assessment Analyst
+- Senior Penetration Tester
+- Vulnerability Assessment Analyst
 
 MCSI certifications are highly respected and sought-after credentials in the industry. Earning an MCSI certification is a testament to your knowledge and skillset, and demonstrates your commitment to excellence. The content is cutting-edge, uniquely-designed, and hands-on. Our exercises teach in-demand skills that are immediately applicable in the field.
 
@@ -78,34 +78,34 @@ The certifications are valid indefinitely and do not require any renewal fees. T
 ## Syllabus
 ### Training Modules
 This course provides you with multiple training modules, each of which is designed to teach you practical skills that can help you solve important cyber problems. Each module offers exercises that will help you build your skills and capabilities.
-    - MCPT-QS-001: Quickstarter - 14 exercises
-    - MCPT-001: AWS Foundations - 6 exercises
-    - MCPT-002: AWS Penetration Testing Fundamentals - 6 exercises
-    - MCPT-101: PACU - AWS Exploitation Framework - 6 exercises
-    - MCPT-102: Attacking Lambda Functions - 4 exercises
-    - MCPT-103: Attacking RDS Instances - 5 exercises
-    - MCPT-201: Attacking CloudFormation - 1 exercises
-    - MCPT-202: Attacking CloudTrail - 5 exercises
-    - MCPT-203: Attacking GuardDuty - 2 exercises
-    - MCPT-204: Scout Suite - 2 exercises
-    - MCPT-205: Advanced AWS Penetration Testing - 12 exercises
-    - MCPT-301: Azure Foundations - 3 exercises
-    - MCPT-302: Introduction to Azure Penetration Testing - 2 exercises
-    - MCPT-303: Bypassing Azure Multi-Factor Authentication (MFA) - 3 exercises
-    - MCPT-304: Azure Reconnaissance - 5 exercises
-    - MCPT-305: Attacking Azure Storage - 5 exercises
-    - MCPT-306: Attacking Virtual Machine in Azure - 2 exercises
-    - MCPT-307: Azure Networks - 6 exercises
-    - MCPT-308: Azure Key Vault Enumeration - 2 exercises
-    - MCPT-309: Attacking Azure Services - 10 exercises
-    - MCPT-401: Google Cloud Platform (GCP) Foundations - 4 exercises
-    - MCPT-402: Google Cloud Platform (GCP) Security Testing - 12 exercises
+- MCPT-QS-001: Quickstarter - 14 exercises
+- MCPT-001: AWS Foundations - 6 exercises
+- MCPT-002: AWS Penetration Testing Fundamentals - 6 exercises
+- MCPT-101: PACU - AWS Exploitation Framework - 6 exercises
+- MCPT-102: Attacking Lambda Functions - 4 exercises
+- MCPT-103: Attacking RDS Instances - 5 exercises
+- MCPT-201: Attacking CloudFormation - 1 exercises
+- MCPT-202: Attacking CloudTrail - 5 exercises
+- MCPT-203: Attacking GuardDuty - 2 exercises
+- MCPT-204: Scout Suite - 2 exercises
+- MCPT-205: Advanced AWS Penetration Testing - 12 exercises
+- MCPT-301: Azure Foundations - 3 exercises
+- MCPT-302: Introduction to Azure Penetration Testing - 2 exercises
+- MCPT-303: Bypassing Azure Multi-Factor Authentication (MFA) - 3 exercises
+- MCPT-304: Azure Reconnaissance - 5 exercises
+- MCPT-305: Attacking Azure Storage - 5 exercises
+- MCPT-306: Attacking Virtual Machine in Azure - 2 exercises
+- MCPT-307: Azure Networks - 6 exercises
+- MCPT-308: Azure Key Vault Enumeration - 2 exercises
+- MCPT-309: Attacking Azure Services - 10 exercises
+- MCPT-401: Google Cloud Platform (GCP) Foundations - 4 exercises
+- MCPT-402: Google Cloud Platform (GCP) Security Testing - 12 exercises
 
 
 ### Scenarios
 Cyber professionals must be ready for everything. The typical security training strategy, which focuses on individual skills and tools, is insufficient. You must be able to operate as part of a team, see the big picture, and respond swiftly and effectively to unforeseen circumstances. That's why, as part of our training, we use replays of whole cyber missions. Our scenarios help you prepare for the demands of the job and give you confidence in your ability to work professionally.
-    - MCPT-SC-01: AWS Security Configuration Assessment - 9 exercises
-    - MCPT-SC-02: AWS Internal Penetration Testing - 5 exercises
+- MCPT-SC-01: AWS Security Configuration Assessment - 9 exercises
+- MCPT-SC-02: AWS Internal Penetration Testing - 5 exercises
 
 
 ## Certifications
