@@ -5,6 +5,16 @@ Professionals with cloud penetration testing skills are in high demand, as more 
 
 This certification program provides you with the knowledge and tools you need to test core cloud services. Upon completion, you will be able to deliver professional penetration testing engagements against AWS, GCP, and Azure.
 
+- [Course Overview](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md#course-overview)
+- [Knowledge, Skills and Abilities You Will Acquire](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md#knowledge-skills-and-abilities-you-will-acquire)
+- [Career Outcomes](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md#career-outcomes)
+- [Syllabus](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md#syllabus)
+   - [Training Modules](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md#training-modules)
+   - [Scenarios](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md#scenarios)
+- [Certifications](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md#certifications)
+- [Actively Maintained Course](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md#actively-maintained-course)
+- [Visit for more!](https://www.mosse-institute.com/certifications/mcpt-cloud-penetration-tester.html)
+
 
 ## Course Overview
 Cloud security is a critical part of any organization's security posture. As more and more businesses move to the cloud, the need for qualified penetration testers who are familiar with cloud environments has never been greater.
