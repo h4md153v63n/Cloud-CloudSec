@@ -1,4 +1,4 @@
-# MCSI CLOUD PENETRATION TESTER [[MCPT]](https://www.mosse-institute.com/certifications/mcpt-cloud-penetration-tester.html)
+# MCSI MULTI CLOUD PENETRATION TESTER [[MCPT]](https://www.mosse-institute.com/certifications/mcpt-cloud-penetration-tester.html)
 **Multi Cloud** penetration testing (**MCPT**) is the process of identifying and exploiting security vulnerabilities in a cloud infrastructure. This can include vulnerabilities in the cloud platform itself, as well as in the applications and services that run on the platform.
 
 Professionals with cloud penetration testing skills are in high demand, as more and more businesses move to cloud-based systems. Cloud penetration testers can help identify and mitigate security risks in cloud-based systems. They are also in high demand by companies that need to comply with security regulations.
