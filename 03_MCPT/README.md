@@ -17,7 +17,7 @@ This certification program provides you with the knowledge and tools you need to
 
 
 ## Course Overview
-Cloud security is a critical part of any organization's security posture. As more and more businesses move to the cloud, the need for qualified penetration testers who are familiar with cloud environments has never been greater.
+Cloud security is a critical part of any organization's security posture. As more and more businesses move to the cloud, the need for qualified penetration testers who are familiar with cloud environments has never been greater. 
 
 Cloud penetration testing is a newer form of penetration testing that focuses specifically on the security of cloud-based systems and applications. Traditional penetration testing methods can be difficult or impossible to use in a cloud environment, so cloud penetration testing uses specialized tools and techniques to test the security of cloud-based systems.
 
