@@ -14,7 +14,7 @@ This certification program provides you with the knowledge and tools you need to
 - [Certifications](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md#certifications)
 - [Actively Maintained Course](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md#actively-maintained-course)
 - [Visit for more!](https://www.mosse-institute.com/certifications/mcpt-cloud-penetration-tester.html)
-   
+    
     
 ## Course Overview
 Cloud security is a critical part of any organization's security posture. As more and more businesses move to the cloud, the need for qualified penetration testers who are familiar with cloud environments has never been greater. 
