@@ -10,7 +10,7 @@ Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
 
 
 ## Hands-on Experience & Labs & Practice Solutions:
-+ **01-THE BIG IAM CHALLENGE:** The links [1](https://bigiamchallenge.com/finisher/elhLP0UO) [2](https://github.com/h4md153v63n/CloudSec/blob/main/04_THE%20BIG%20IAM%20CHALLENGE/README.md) [3](https://bigiamchallenge.com/)
++ **01-THE BIG IAM CHALLENGE / AWS:** The links [1](https://bigiamchallenge.com/finisher/elhLP0UO) [2](https://github.com/h4md153v63n/CloudSec/blob/main/04_THE%20BIG%20IAM%20CHALLENGE/README.md) [3](https://bigiamchallenge.com/)
 + **02-HTB: Fortresses / AWS:** The links [1](https://github.com/h4md153v63n/CloudSec/blob/main/05_Fortresses-AWS/README.md) [2](https://app.hackthebox.com/fortresses/7)
 + **03-flAWS:** The links [1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/README.md) 
    + **flaws.cloud:** [1](https://github.com/h4md153v63n/CloudSec/blob/main/07_flAWS/01_flaws.cloud.md) [2](http://flaws.cloud/) 
