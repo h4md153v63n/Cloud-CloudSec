@@ -1,4 +1,4 @@
-# THE BIG IAM CHALLENGE
+# THE BIG IAM CHALLENGE / AWS
 Buckets of Fun
 
 We all know that public buckets are risky. But can you find the flag?
