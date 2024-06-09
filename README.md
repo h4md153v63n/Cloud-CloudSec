@@ -6,7 +6,7 @@ Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
 + **00-AWS Certified Cloud Practitioner:** **[CLF-C01]** [1](https://www.credly.com/badges/c69b7d37-b218-48b4-98a1-702e4e43ef62) [2](https://medium.com/codingninjablogs/aws-certified-cloud-practitioner-reviews-a2aed7958c5b)
 + **01-Multi-Cloud Red Team Analyst:** **[MCRTA]** [1](https://labs.cyberwarfare.live/badge/image/6630849d0dcca27bccbc6c74) [2](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/README.md)
 + **02-Hybrid Multi-Cloud Red Team Specialist:** **[CHMRTS]** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/02_CHMRTS/README.md)
-+ **03-MCSI MULTI CLOUD PENETRATION TESTER:** **[MCPT]** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md)
++ **03-MCSI MULTI CLOUD PENETRATION TESTER:** **[MCPT]** / **HOURS OF TRAINING: 400+ hours** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md)
 
 
 ## Hands-on Experience & Labs & Practice Solutions:
