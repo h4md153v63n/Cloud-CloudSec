@@ -9,7 +9,7 @@ Develop in-demand cloud skills in this immersive role-playing simulation
 - [Cloud Practitioner](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#cloud-practitioner)
 - [Solutions Architect](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#solutions-architect)
 - [Serverless Developer](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#serverless-developer)
-- Machine Learning
+- [Machine Learning](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#machine-learning)
 - Security
 - Data Analytics
 - Networking
