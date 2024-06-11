@@ -12,7 +12,7 @@ Develop in-demand cloud skills in this immersive role-playing simulation
 - [Machine Learning](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#machine-learning)
 - [Security](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#security)
 - [Data Analytics](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#data-analytics)
-- Networking
+- [Networking](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#networking)
   
 
 ## About AWS Cloud Quest
@@ -51,7 +51,7 @@ Dive into the roles that matter most for your learning goals. Once you complete 
 
 
 
-# Networking
+## Networking
 
 
 
