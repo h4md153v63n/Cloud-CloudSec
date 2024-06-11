@@ -29,7 +29,29 @@ Dive into the roles that matter most for your learning goals. Once you complete 
 
 
 ## Cloud Practitioner
-
+[Solution Lab assignments in the game!](https://explore.skillbuilder.aws/learn/course/external/view/elearning/11458/aws-cloud-quest-cloud-practitioner)
+- Cloud Computing Essentials
+- Amazon S3
+- Cloud First Steps
+- AWS, Amazon EC2
+- Computing Solutions
+- Amazon Ec2
+- Cloud Economics
+- AWS Pricing Calculator, Amazon EC2
+- Networking Concepts
+- Amazon VPC, Amazon EC2
+- Connecting VPCs
+- Amazon EC2, Amazon VPC
+- First NoSQL Database
+- Amazon DynamoDB
+- Core Security Concepts
+- Amazon EC2, Amazon Relational Database Service (RDS), AWS Identity and Access Management (IAM)
+- File Systems in the Cloud
+- Amazon EC2, Amazon Elastic File System
+- Auto-healing and Scaling Applications
+- Amazon EC2, Amazon EC2 Auto Scaling
+- Highly Available Web Applications
+- Amazon S3, Amazon EC2, Amazon EC2 Auto Scaling, Elastic Load Balancing (ELB)
 
 
 ## Solutions Architect
