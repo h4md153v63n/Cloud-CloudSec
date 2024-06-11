@@ -24,7 +24,7 @@ Cloud security is a critical part of any organization's security posture. As mor
 Cloud penetration testing is a newer form of penetration testing that focuses specifically on the security of cloud-based systems and applications. Traditional penetration testing methods can be difficult or impossible to use in a cloud environment, so cloud penetration testing uses specialized tools and techniques to test the security of cloud-based systems.
 
 If you're looking to become a certified penetration tester capable of performing cloud penetration testing, our cloud security certification will give you the skills you need to succeed. This course covers AWS, GCP and Azure, so you'll be prepared to take on any cloud environment.
-
+ 
 The MCSI Cloud Penetration Testing (MCPT) certification will equip you with the skillset necessary to carry out the following tasks:
 - Identify vulnerabilities in cloud services such as Cloud Formation, RDS instances, Azure AD, buckets, and lambda
 - Discover and enumerate vulnerable users and service accounts
