@@ -7,7 +7,7 @@ Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
 + **01-Multi-Cloud Red Team Analyst:** **[MCRTA]** [1](https://labs.cyberwarfare.live/badge/image/6630849d0dcca27bccbc6c74) [2](https://github.com/h4md153v63n/CloudSec/blob/main/01_MCRTA/README.md)
 + **02-Hybrid Multi-Cloud Red Team Specialist:** **[CHMRTS]** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/02_CHMRTS/README.md)
 + **03-MCSI MULTI CLOUD PENETRATION TESTER:** **[MCPT]** / **HOURS OF TRAINING: 400+ hours** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md)
-
+ 
 
 ## Hands-on Experience & Labs & Practice Solutions:
 + **01-THE BIG IAM CHALLENGE / AWS:** The links [1](https://bigiamchallenge.com/finisher/elhLP0UO) [2](https://github.com/h4md153v63n/CloudSec/blob/main/04_THE%20BIG%20IAM%20CHALLENGE/README.md) [3](https://bigiamchallenge.com/)
