@@ -35,7 +35,7 @@ A penetration tester with cloud testing skills can earn a 6-figure salary. This 
 
  
 ## Knowledge, Skills and Abilities You Will Acquire
-MCSI is one of the most respected and trusted names in cyber security education and training. Our certifications teach critical skills, knowledge and abilities needed to advance a career in cyber security. Our courses are comprehensive and up-to-date, and our instructors are experienced professionals who are dedicated to helping students learn. MCSI provides the real-world skills and knowledge you need to protect any organization from cyber threats. 
+MCSI is one of the most respected and trusted names in cyber security education and training. Our certifications teach critical skills, knowledge and abilities needed to advance a career in cyber security. Our courses are comprehensive and up-to-date, and our instructors are experienced professionals who are dedicated to helping students learn. MCSI provides the real-world skills and knowledge you need to protect any organization from cyber threats.  
 
 **Attack AWS:**
 - S3 Buckets
