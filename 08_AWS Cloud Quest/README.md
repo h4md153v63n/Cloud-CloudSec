@@ -4,7 +4,7 @@ GAME-BASED LEARNING: https://aws.amazon.com/training/digital/aws-cloud-quest/
 Develop in-demand cloud skills in this immersive role-playing simulation
 
 - [About AWS Cloud Quest](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#about-aws-cloud-quest)
-- Build role-specific skills and earn your badge
+- [Build role-specific skills and earn your badge](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#build-role-specific-skills-and-earn-your-badge)
 - [Visit for more!](https://aws.amazon.com/training/digital/aws-cloud-quest/)
 
 ## About AWS Cloud Quest
