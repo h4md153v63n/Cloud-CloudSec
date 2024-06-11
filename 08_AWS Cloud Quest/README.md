@@ -1,5 +1,5 @@
 # AWS Cloud Quest
-GAME-BASED LEARNING: https://aws.amazon.com/training/digital/aws-cloud-quest/
+**GAME-BASED LEARNING:** https://aws.amazon.com/training/digital/aws-cloud-quest/
 
 Develop in-demand cloud skills in this immersive role-playing simulation
 
