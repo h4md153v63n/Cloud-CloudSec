@@ -6,13 +6,14 @@ Develop in-demand cloud skills in this immersive role-playing simulation
 - [About AWS Cloud Quest](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#about-aws-cloud-quest)
 - [Build role-specific skills and earn your badge](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#build-role-specific-skills-and-earn-your-badge)
 - [Visit for more!](https://aws.amazon.com/training/digital/aws-cloud-quest/)
-- [Cloud Practitioner](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#cloud-practitioner)
-- [Solutions Architect](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#solutions-architect)
-- [Serverless Developer](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#serverless-developer)
-- [Machine Learning](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#machine-learning)
-- [Security](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#security)
-- [Data Analytics](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#data-analytics)
-- [Networking](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#networking)
+- **PATHS:**
+  - [Cloud Practitioner](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#cloud-practitioner)
+  - [Solutions Architect](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#solutions-architect)
+  - [Serverless Developer](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#serverless-developer)
+  - [Machine Learning](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#machine-learning)
+  - [Security](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#security)
+  - [Data Analytics](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#data-analytics)
+  - [Networking](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#networking)
   
 
 ## About AWS Cloud Quest
