@@ -8,14 +8,14 @@ Develop in-demand cloud skills in this immersive role-playing simulation
 - [Visit for more!](https://aws.amazon.com/training/digital/aws-cloud-quest/)
 - **PATHS:**
   - **Cloud Practitioner:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#cloud-practitioner)
-  - **Solutions Architect:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#solutions-architect)
-  - **Serverless Developer:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#serverless-developer)
-  - **Machine Learning:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#machine-learning)
-  - **Security:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#security)
-  - **Data Analytics:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#data-analytics)
   - **Networking:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#networking)
-                 
-       
+  - **Solutions Architect:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#solutions-architect)
+  - **Security:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#security)
+  - **Serverless Developer:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#serverless-developer)
+  - **Data Analytics:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#data-analytics)
+  - **Machine Learning:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#machine-learning)
+  
+                      
 ## About AWS Cloud Quest
 AWS Cloud Quest is the only 3D role-playing game to help you build practical AWS Cloud skills. Choose your role: Cloud Practitioner, Serverless Developer, Solutions Architect, Machine Learning Specialist, Security Specialist, Data Analytics Specialist, or Networking Specialist-then learn and apply cloud skills to help the citizens of your virtual city.
 
