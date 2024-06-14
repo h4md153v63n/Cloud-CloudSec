@@ -7,7 +7,7 @@ Develop in-demand cloud skills in this immersive role-playing simulation
 - [Build role-specific skills and earn your badge](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#build-role-specific-skills-and-earn-your-badge)
 - [Visit for more!](https://aws.amazon.com/training/digital/aws-cloud-quest/)
 - **PATHS:**
-  - **Cloud Practitioner:** [1](https://www.credly.com/earner/earned/badge/9a4b49d8-b0cf-4048-8817-2bbb7e6a871a) [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#cloud-practitioner)
+  - **Cloud Practitioner:** [1](https://www.credly.com/badges/9a4b49d8-b0cf-4048-8817-2bbb7e6a871a) [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#cloud-practitioner)
   - **Networking:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#networking)
   - **Solutions Architect:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#solutions-architect)
   - **Security:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#security)
