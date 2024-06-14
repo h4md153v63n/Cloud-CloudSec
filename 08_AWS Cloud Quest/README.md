@@ -53,8 +53,6 @@ Dive into the roles that matter most for your learning goals. Once you complete 
 - Highly Available Web Applications
 - Amazon S3, Amazon EC2, Amazon EC2 Auto Scaling, Elastic Load Balancing (ELB)
 
-### Cloud Practitioner Badget
-
 
 ## Solutions Architect
 
