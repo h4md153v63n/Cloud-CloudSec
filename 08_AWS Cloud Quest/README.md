@@ -7,7 +7,7 @@ Develop in-demand cloud skills in this immersive role-playing simulation
 - [Build role-specific skills and earn your badge](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#build-role-specific-skills-and-earn-your-badge)
 - [Visit for more!](https://aws.amazon.com/training/digital/aws-cloud-quest/)
 - **PATHS:**
-  - [Cloud Practitioner](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#cloud-practitioner)
+  - [Cloud Practitioner](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#cloud-practitioner): **The Badget:** 1 2 
   - [Solutions Architect](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#solutions-architect)
   - [Serverless Developer](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#serverless-developer)
   - [Machine Learning](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#machine-learning)
@@ -52,6 +52,8 @@ Dive into the roles that matter most for your learning goals. Once you complete 
 - Amazon EC2, Amazon EC2 Auto Scaling
 - Highly Available Web Applications
 - Amazon S3, Amazon EC2, Amazon EC2 Auto Scaling, Elastic Load Balancing (ELB)
+
+### Cloud Practitioner Badget
 
 
 ## Solutions Architect
