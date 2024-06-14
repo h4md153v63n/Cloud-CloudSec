@@ -9,14 +9,14 @@ Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
 + **03-MCSI MULTI CLOUD PENETRATION TESTER:** **[MCPT]** / **HOURS OF TRAINING: 400+ hours** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md)
 + **04-AWS Cloud Quest:** [1](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md) [2](https://aws.amazon.com/training/digital/aws-cloud-quest/)
    + **Cloud Practitioner:** [1](https://www.credly.com/badges/9a4b49d8-b0cf-4048-8817-2bbb7e6a871a) [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#cloud-practitioner)
-   + **Networking:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#networking)
    + **Solutions Architect:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#solutions-architect)
    + **Security:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#security)
+   + **Networking:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#networking)
    + **Serverless Developer:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#serverless-developer)
    + **Data Analytics:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#data-analytics)
    + **Machine Learning:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#machine-learning)
  
-
+ 
 ## Hands-on Experience & Labs & Practice Solutions:
 + **01-THE BIG IAM CHALLENGE / AWS:** The links [1](https://bigiamchallenge.com/finisher/elhLP0UO) [2](https://github.com/h4md153v63n/CloudSec/blob/main/04_THE%20BIG%20IAM%20CHALLENGE/README.md) [3](https://bigiamchallenge.com/)
 + **02-HTB: Fortresses / AWS:** The links [1](https://github.com/h4md153v63n/CloudSec/blob/main/05_Fortresses-AWS/README.md) [2](https://app.hackthebox.com/fortresses/7)
