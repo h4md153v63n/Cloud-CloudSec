@@ -8,7 +8,7 @@ Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
 + **02-Hybrid Multi-Cloud Red Team Specialist:** **[CHMRTS]** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/02_CHMRTS/README.md)
 + **03-MCSI MULTI CLOUD PENETRATION TESTER:** **[MCPT]** / **HOURS OF TRAINING: 400+ hours** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md)
 + **04-AWS Cloud Quest:** [1](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md) [2](https://aws.amazon.com/training/digital/aws-cloud-quest/)
-   + **Cloud Practitioner:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#cloud-practitioner)
+   + **Cloud Practitioner:** [1](https://www.credly.com/earner/earned/badge/9a4b49d8-b0cf-4048-8817-2bbb7e6a871a) [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#cloud-practitioner)
    + **Networking:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#networking)
    + **Solutions Architect:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#solutions-architect)
    + **Security:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#security)
