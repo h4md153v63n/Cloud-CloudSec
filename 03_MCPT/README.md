@@ -80,7 +80,7 @@ The certifications are valid indefinitely and do not require any renewal fees. T
 ## Syllabus
 ### Training Modules
 This course provides you with multiple training modules, each of which is designed to teach you practical skills that can help you solve important cyber problems. Each module offers exercises that will help you build your skills and capabilities.
-- MCPT-QS-001: Quickstarter - 14 exercises
+- MCPT-QS-001: Quickstarter - 14 exercises 
 - MCPT-001: AWS Foundations - 6 exercises
 - MCPT-002: AWS Penetration Testing Fundamentals - 6 exercises
 - MCPT-101: PACU - AWS Exploitation Framework - 6 exercises
