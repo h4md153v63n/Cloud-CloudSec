@@ -1,5 +1,5 @@
 # MCSI MULTI CLOUD PENETRATION TESTER [[MCPT]](https://www.mosse-institute.com/certifications/mcpt-cloud-penetration-tester.html):
-**HOURS OF TRAINING: 400+ hours**
+**HOURS OF TRAINING: 400+ hours** 
  
 **Multi Cloud** penetration testing (**MCPT**) is the process of identifying and exploiting security vulnerabilities in a cloud infrastructure. This can include vulnerabilities in the cloud platform itself, as well as in the applications and services that run on the platform.
 
