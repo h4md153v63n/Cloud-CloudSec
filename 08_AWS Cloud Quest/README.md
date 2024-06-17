@@ -54,9 +54,9 @@ Dive into the roles that matter most for your learning goals. Once you complete 
 - Highly Available Web Applications
 - Amazon S3, Amazon EC2, Amazon EC2 Auto Scaling, Elastic Load Balancing (ELB)
 
-Cloud Practitioners will build basic cloud solutions using AWS services. You will learn about AWS Cloud concepts, security concepts, common use cases, billing and pricing models and business impacts.
+**Cloud Practitioners will build basic cloud solutions using AWS services. You will learn about AWS Cloud concepts, security concepts, common use cases, billing and pricing models and business impacts.**
 
-You can earn a digital badge for completing all assignments for Cloud Practitioner. AWS Cloud Quest digital badges enable you to demonstrate your solution building knowledge.
+**You can earn a digital badge for completing all assignments for Cloud Practitioner. AWS Cloud Quest digital badges enable you to demonstrate your solution building knowledge.**
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/17b78390-5a93-4d57-9819-9b63b903fa21)
 
@@ -65,6 +65,11 @@ You can earn a digital badge for completing all assignments for Cloud Practition
 
 
 ## Solutions Architect
+As the solution architect, you will implement solutions based on a broad set of AWS services. You will build solutions that scale network connectivity, secure data and manage resources leveraging the AWS Well Architected Framework.
+
+You can earn a digital badge for completing all assignments for Solutions Architect. AWS Cloud Quest digital badges enable you to demonstrate your solution building knowledge.
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/b9439c22-6030-4b6c-87c7-35bc470e02ac)
 
 
 
