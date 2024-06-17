@@ -5,7 +5,7 @@
 
 Professionals with cloud penetration testing skills are in high demand, as more and more businesses move to cloud-based systems. Cloud penetration testers can help identify and mitigate security risks in cloud-based systems. They are also in high demand by companies that need to comply with security regulations.
 
-This certification program provides you with the knowledge and tools you need to test core cloud services. Upon completion, you will be able to deliver professional penetration testing engagements against AWS, GCP, and Azure.     
+This certification program provides you with the knowledge and tools you need to test core cloud services. Upon completion, you will be able to deliver professional penetration testing engagements against AWS, GCP, and Azure.      
             
 - [Course Overview](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md#course-overview)
 - [Knowledge, Skills and Abilities You Will Acquire](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md#knowledge-skills-and-abilities-you-will-acquire)
