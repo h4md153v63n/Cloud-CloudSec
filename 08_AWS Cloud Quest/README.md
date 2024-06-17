@@ -30,6 +30,7 @@ Dive into the roles that matter most for your learning goals. Once you complete 
 
 ## Cloud Practitioner
 [Solution Lab assignments in the game!](https://explore.skillbuilder.aws/learn/course/external/view/elearning/11458/aws-cloud-quest-cloud-practitioner)
+
 - Cloud Computing Essentials
 - Amazon S3
 - Cloud First Steps
@@ -52,6 +53,12 @@ Dive into the roles that matter most for your learning goals. Once you complete 
 - Amazon EC2, Amazon EC2 Auto Scaling
 - Highly Available Web Applications
 - Amazon S3, Amazon EC2, Amazon EC2 Auto Scaling, Elastic Load Balancing (ELB)
+
+Cloud Practitioners will build basic cloud solutions using AWS services. You will learn about AWS Cloud concepts, security concepts, common use cases, billing and pricing models and business impacts.
+
+You can earn a digital badge for completing all assignments for Cloud Practitioner. AWS Cloud Quest digital badges enable you to demonstrate your solution building knowledge.
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/17b78390-5a93-4d57-9819-9b63b903fa21)
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/6a50bcc4-c367-4820-9bf3-e0ac31851b8d)
 
