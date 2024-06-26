@@ -60,6 +60,8 @@ Dive into the roles that matter most for your learning goals. Once you complete 
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/17b78390-5a93-4d57-9819-9b63b903fa21)
 
+**Finished!**
+
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/6a50bcc4-c367-4820-9bf3-e0ac31851b8d)
 
 
