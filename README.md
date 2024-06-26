@@ -9,7 +9,7 @@ Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
 + **03-MCSI MULTI CLOUD PENETRATION TESTER:** **[MCPT]** / **HOURS OF TRAINING: 400+ hours** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/03_MCPT/README.md)
 + **04-AWS Cloud Quest:** [1](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md) [2](https://aws.amazon.com/training/digital/aws-cloud-quest/)
    + **Cloud Practitioner:** [1](https://www.credly.com/badges/9a4b49d8-b0cf-4048-8817-2bbb7e6a871a) [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#cloud-practitioner)
-   + **Solutions Architect:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#solutions-architect)
+   + **Solutions Architect:** [1](https://www.credly.com/badges/486d939e-b089-4123-bd34-eb9e1876c5c8) [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#solutions-architect)
    + **Security:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#security)
    + **Networking:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#networking)
    + **Serverless Developer:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#serverless-developer)
