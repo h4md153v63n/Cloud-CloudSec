@@ -71,6 +71,18 @@ You can earn a digital badge for completing all assignments for Solutions Archit
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/b9439c22-6030-4b6c-87c7-35bc470e02ac)
 
+**Voila!**
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/d208adff-d689-4983-a0bc-210613421b32)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/ccae9c24-c9a5-4ed7-8091-6b7760cacb65)
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/f4155ca7-10bc-4172-94b8-44850e3088b9)
+
+**BOOM!**
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/d1613c04-b54a-4e7f-80b5-b8cce5872731)
+
 
 
 ## Serverless Developer
