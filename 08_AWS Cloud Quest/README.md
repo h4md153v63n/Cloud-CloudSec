@@ -85,25 +85,23 @@ You can earn a digital badge for completing all assignments for Solutions Archit
 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/d1613c04-b54a-4e7f-80b5-b8cce5872731)
 
+**Finished!**
 
-
-## Serverless Developer
-
-
-
-## Machine Learning
-
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/a549cddc-5bf7-42e5-b40d-e3424dcea569)
 
 
 ## Security
 
 
+## Networking
+
+
+## Serverless Developer
+
 
 ## Data Analytics
 
 
-
-## Networking
-
+## Machine Learning
 
 
