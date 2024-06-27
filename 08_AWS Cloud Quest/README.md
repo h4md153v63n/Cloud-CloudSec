@@ -98,8 +98,6 @@ You can earn a digital badge for completing all assignments in this role. AWS Cl
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/5c4a11e0-b7a6-4d3f-b12f-116ea6dc642e)
 
 
-
-
 ## Networking
 
 
