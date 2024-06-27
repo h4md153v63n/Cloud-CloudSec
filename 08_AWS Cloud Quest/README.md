@@ -28,7 +28,7 @@ Dive into the roles that matter most for your learning goals. Once you complete 
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/e2f1dc93-bd1f-47d6-898b-40b5649d8328)
 
 
-## Cloud Practitioner
+## [Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/11458/aws-cloud-quest-cloud-practitioner)
 [Solution Lab assignments in the game!](https://explore.skillbuilder.aws/learn/course/external/view/elearning/11458/aws-cloud-quest-cloud-practitioner)
 
 - Cloud Computing Essentials
@@ -66,7 +66,7 @@ Dive into the roles that matter most for your learning goals. Once you complete 
 
 
 
-## Solutions Architect
+## [Solutions Architect](https://explore.skillbuilder.aws/learn/course/15580/aws-cloud-quest-solutions-architect)
 As the solution architect, you will implement solutions based on a broad set of AWS services. You will build solutions that scale network connectivity, secure data and manage resources leveraging the AWS Well Architected Framework.
 
 You can earn a digital badge for completing all assignments for Solutions Architect. AWS Cloud Quest digital badges enable you to demonstrate your solution building knowledge.
@@ -90,7 +90,14 @@ You can earn a digital badge for completing all assignments for Solutions Archit
 ![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/a549cddc-5bf7-42e5-b40d-e3424dcea569)
 
 
-## Security
+## [Security](https://explore.skillbuilder.aws/learn/course/14805/aws-cloud-quest-security)
+As the city’s Security Specialist, you will build solutions based on AWS security practices that protect customers infrastructure and data from common security threats. You will acquire knowledge on how to leverage AWS tools and service for logging, monitoring, and automation to enhance infrastructure security. After starting Cloud Quest, choose the Security role from the roles map to get security focused solution building assignments curated by AWS experts.
+
+You can earn a digital badge for completing all assignments in this role. AWS Cloud Quest digital badges enable you to demonstrate your solution building knowledge.
+
+![image](https://github.com/h4md153v63n/CloudSec/assets/5091265/5c4a11e0-b7a6-4d3f-b12f-116ea6dc642e)
+
+
 
 
 ## Networking
