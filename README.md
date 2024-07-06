@@ -15,7 +15,7 @@ Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
    + **Serverless Developer:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#serverless-developer)
    + **Data Analytics:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#data-analytics)
    + **Machine Learning:** 1 [2](https://github.com/h4md153v63n/CloudSec/blob/main/08_AWS%20Cloud%20Quest/README.md#machine-learning)
-                                             
+                                              
             
 ## Hands-on Experience & Labs & Practice Solutions:
 + **01-THE BIG IAM CHALLENGE / AWS:** The links [1](https://bigiamchallenge.com/finisher/elhLP0UO) [2](https://github.com/h4md153v63n/CloudSec/blob/main/04_THE%20BIG%20IAM%20CHALLENGE/README.md) [3](https://bigiamchallenge.com/)
