@@ -111,6 +111,13 @@ You can earn a digital badge for completing all assignments in this role. AWS Cl
 ![image](https://github.com/user-attachments/assets/b300210b-94b1-41b2-8a1b-5d7306ca4bc2)
 
 
+**Application Logs** and **Finito!**
+
+![image](https://github.com/user-attachments/assets/f86ca685-6706-4eb1-8a76-6092dc33a1b7)
+
+![image](https://github.com/user-attachments/assets/1195332e-a118-488d-8462-f14f13a224e3)
+
+
 
 ## Networking
 
