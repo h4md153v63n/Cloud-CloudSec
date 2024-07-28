@@ -108,6 +108,8 @@ You can earn a digital badge for completing all assignments in this role. AWS Cl
 
 ![image](https://github.com/user-attachments/assets/0c3228b1-8890-4f4b-b00e-2326173901d8)
 
+![image](https://github.com/user-attachments/assets/b300210b-94b1-41b2-8a1b-5d7306ca4bc2)
+
 
 
 ## Networking
