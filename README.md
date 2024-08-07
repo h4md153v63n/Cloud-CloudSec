@@ -1,5 +1,5 @@
 # Cloud & CloudSec
-Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
+Multi Cloud and Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
  
 
 ## Bootcamps & Certifications & Courses & Programs:
