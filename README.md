@@ -1,4 +1,4 @@
-# CloudSec
+# Cloud & CloudSec
 Multi Cloud Security: Amazon AWS, Microsoft Azure, and Google GCP
  
 
